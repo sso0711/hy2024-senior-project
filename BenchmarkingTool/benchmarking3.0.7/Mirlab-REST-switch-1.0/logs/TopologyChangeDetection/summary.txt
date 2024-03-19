@@ -1,0 +1,5 @@
+2019-07-03_17-24/TopologyChangeDetection/Linear/3/3014.86150
+2019-07-03_17-26/TopologyChangeDetection/Linear/3/3003.93737
+2019-07-03_17-28/TopologyChangeDetection/Linear/3/3022.19871
+2019-07-03_17-29/TopologyChangeDetection/Linear/3/3005.95693
+2019-07-03_17-29/TopologyChangeDetection/Linear/3/3006.83980

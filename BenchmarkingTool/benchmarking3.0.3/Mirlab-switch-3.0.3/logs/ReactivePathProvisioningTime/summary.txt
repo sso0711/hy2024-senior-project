@@ -1,0 +1,16 @@
+2017-10-17_17-04/ReactivePathProvisioningTime/Linear/10/11.21974
+2017-10-17_17-09/ReactivePathProvisioningTime/Linear/10/10.28362
+2018-11-13_12-14/ReactivePathProvisioningTime/Linear/10/12.85833
+2018-11-13_12-47/ReactivePathProvisioningTime/Linear/10/24.68431
+2018-11-13_12-50/ReactivePathProvisioningTime/Linear/10/9.46551
+2018-11-13_14-04/ReactivePathProvisioningTime/Ring/3/3.35420
+2018-11-13_17-57/ReactivePathProvisioningTime/Ring/3/5.16264
+2018-11-13_18-03/ReactivePathProvisioningTime/Ring/3/4.91266
+2018-11-13_18-17/ReactivePathProvisioningTime/Ring/3/7.44440
+2018-11-13_21-09/ReactivePathProvisioningTime/Ring/3/-
+2018-11-15_14-39/ReactivePathProvisioningTime/Ring/3/9.57587
+2018-11-15_14-46/ReactivePathProvisioningTime/Ring/3/5.92495
+2018-11-15_14-47/ReactivePathProvisioningTime/Ring/3/3.50092
+2018-11-15_15-04/ReactivePathProvisioningTime/Ring/3/2.51253
+2018-11-15_15-05/ReactivePathProvisioningTime/Ring/3/2.71534
+2018-11-15_15-36/ReactivePathProvisioningTime/Linear/3/2.52514

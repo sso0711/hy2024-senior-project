@@ -1,0 +1,557 @@
+***************SDN Controller Information***************
+
+Controller Mode: Standalone
+
+Controller Type: ONOS
+
+Ip/Port: 192.168.1.108:6633
+
+*****************Benchmark  Information*****************
+
+OpenFlow Version: Openflow 1.3 
+
+Topology Type: Linear
+
+Number of Switch: 10 
+
+Number of Host per Switch: 100 
+
+Test Time: 5s 
+
+Bulk size start from: 1
+
+The packet loss threshoud : 5.0%
+
+Asynchronous Message Type: TCP
+
+Reactive Path Provisioning Packet Type: TCP
+
+*******************************************************
+
+[Tue Oct 17 14:53:47 KST 2017] [class com.mir.ui.Main]: "Reactive Path Provisioning Rate" Test Start... 
+
+[Tue Oct 17 14:53:47 KST 2017] [class com.mirlab.lib.FindOptimizationalResult]: Start to find optimizational Bulk Size. Bulk Size Start from:1
+[Tue Oct 17 14:53:47 KST 2017] [ReactivePathProvisioningRate]: *********************************************
+[Tue Oct 17 14:53:47 KST 2017] [ReactivePathProvisioningRate]: Current bulk size = 1
+[Tue Oct 17 14:53:47 KST 2017] [ReactivePathProvisioningRate]: Inter-arrival Time = 1.00000
+[Tue Oct 17 14:53:47 KST 2017] [ReactivePathProvisioningRate]: Duration Time = 5
+[Tue Oct 17 14:54:42 KST 2017] [ReactivePathProvisioningRate]: Sending ARP(Gratuitous) Completed.
+[Tue Oct 17 14:55:56 KST 2017] [ReactivePathProvisioningRate]: Final max Sample Size: 144
+[Tue Oct 17 14:55:56 KST 2017] [ReactivePathProvisioningRate]: Sample packet < 200, Please Try it again!
+[Tue Oct 17 14:55:56 KST 2017] [ReactivePathProvisioningRate]: *********************************************
+[Tue Oct 17 14:55:56 KST 2017] [ReactivePathProvisioningRate]: Current bulk size = 1
+[Tue Oct 17 14:55:56 KST 2017] [ReactivePathProvisioningRate]: Inter-arrival Time = 1.00000
+[Tue Oct 17 14:55:57 KST 2017] [ReactivePathProvisioningRate]: Duration Time = 5
+[Tue Oct 17 14:56:51 KST 2017] [ReactivePathProvisioningRate]: Sending ARP(Gratuitous) Completed.
+[Tue Oct 17 14:57:38 KST 2017] [ReactivePathProvisioningRate]: Final max Sample Size: 451
+[Tue Oct 17 14:57:38 KST 2017] [ReactivePathProvisioningRate]: Packet In : 9984
+[Tue Oct 17 14:57:38 KST 2017] [ReactivePathProvisioningRate]: Packet In cost time : 37.384618542
+[Tue Oct 17 14:57:38 KST 2017] [ReactivePathProvisioningRate]: Flow Mod : 6379
+[Tue Oct 17 14:57:38 KST 2017] [ReactivePathProvisioningRate]: Flow Mod Time : 36.613889672
+[Tue Oct 17 14:57:38 KST 2017] [ReactivePathProvisioningRate]: Packet Loss Rate: 0.36108
+[Tue Oct 17 14:57:38 KST 2017] [ReactivePathProvisioningRate]: Packet Loss Rate > 5.0%, Restart to find Optimizational Result.. 
+[Tue Oct 17 14:57:38 KST 2017] [ReactivePathProvisioningRate]: *********************************************
+[Tue Oct 17 14:57:38 KST 2017] [ReactivePathProvisioningRate]: Current bulk size = 1
+[Tue Oct 17 14:57:38 KST 2017] [ReactivePathProvisioningRate]: Inter-arrival Time = 1.10000
+[Tue Oct 17 14:57:38 KST 2017] [ReactivePathProvisioningRate]: Duration Time = 5
+[Tue Oct 17 14:58:33 KST 2017] [ReactivePathProvisioningRate]: Sending ARP(Gratuitous) Completed.
+[Tue Oct 17 14:59:06 KST 2017] [ReactivePathProvisioningRate]: Final max Sample Size: 316
+[Tue Oct 17 14:59:06 KST 2017] [ReactivePathProvisioningRate]: Packet In : 9984
+[Tue Oct 17 14:59:06 KST 2017] [ReactivePathProvisioningRate]: Packet In cost time : 23.688789621
+[Tue Oct 17 14:59:06 KST 2017] [ReactivePathProvisioningRate]: Flow Mod : 4324
+[Tue Oct 17 14:59:06 KST 2017] [ReactivePathProvisioningRate]: Flow Mod Time : 23.647282534
+[Tue Oct 17 14:59:06 KST 2017] [ReactivePathProvisioningRate]: Packet Loss Rate: 0.56691
+[Tue Oct 17 14:59:06 KST 2017] [ReactivePathProvisioningRate]: Packet Loss Rate > 5.0%, Restart to find Optimizational Result.. 
+[Tue Oct 17 14:59:06 KST 2017] [ReactivePathProvisioningRate]: *********************************************
+[Tue Oct 17 14:59:06 KST 2017] [ReactivePathProvisioningRate]: Current bulk size = 1
+[Tue Oct 17 14:59:06 KST 2017] [ReactivePathProvisioningRate]: Inter-arrival Time = 1.20000
+[Tue Oct 17 14:59:06 KST 2017] [ReactivePathProvisioningRate]: Duration Time = 5
+[Tue Oct 17 15:00:01 KST 2017] [ReactivePathProvisioningRate]: Sending ARP(Gratuitous) Completed.
+[Tue Oct 17 15:00:31 KST 2017] [ReactivePathProvisioningRate]: Final max Sample Size: 272
+[Tue Oct 17 15:00:31 KST 2017] [ReactivePathProvisioningRate]: Packet In : 9984
+[Tue Oct 17 15:00:31 KST 2017] [ReactivePathProvisioningRate]: Packet In cost time : 19.622213116
+[Tue Oct 17 15:00:31 KST 2017] [ReactivePathProvisioningRate]: Flow Mod : 4264
+[Tue Oct 17 15:00:31 KST 2017] [ReactivePathProvisioningRate]: Flow Mod Time : 19.606497064
+[Tue Oct 17 15:00:31 KST 2017] [ReactivePathProvisioningRate]: Packet Loss Rate: 0.57292
+[Tue Oct 17 15:00:31 KST 2017] [ReactivePathProvisioningRate]: Packet Loss Rate > 5.0%, Restart to find Optimizational Result.. 
+[Tue Oct 17 15:00:31 KST 2017] [ReactivePathProvisioningRate]: *********************************************
+[Tue Oct 17 15:00:31 KST 2017] [ReactivePathProvisioningRate]: Current bulk size = 1
+[Tue Oct 17 15:00:31 KST 2017] [ReactivePathProvisioningRate]: Inter-arrival Time = 1.30000
+[Tue Oct 17 15:00:31 KST 2017] [ReactivePathProvisioningRate]: Duration Time = 5
+[Tue Oct 17 15:01:25 KST 2017] [ReactivePathProvisioningRate]: Sending ARP(Gratuitous) Completed.
+[Tue Oct 17 15:01:53 KST 2017] [ReactivePathProvisioningRate]: Final max Sample Size: 252
+[Tue Oct 17 15:01:53 KST 2017] [ReactivePathProvisioningRate]: Packet In : 9984
+[Tue Oct 17 15:01:53 KST 2017] [ReactivePathProvisioningRate]: Packet In cost time : 17.845676585
+[Tue Oct 17 15:01:53 KST 2017] [ReactivePathProvisioningRate]: Flow Mod : 3398
+[Tue Oct 17 15:01:53 KST 2017] [ReactivePathProvisioningRate]: Flow Mod Time : 17.306098675
+[Tue Oct 17 15:01:53 KST 2017] [ReactivePathProvisioningRate]: Packet Loss Rate: 0.65966
+[Tue Oct 17 15:01:53 KST 2017] [ReactivePathProvisioningRate]: Packet Loss Rate > 5.0%, Restart to find Optimizational Result.. 
+[Tue Oct 17 15:01:53 KST 2017] [ReactivePathProvisioningRate]: *********************************************
+[Tue Oct 17 15:01:53 KST 2017] [ReactivePathProvisioningRate]: Current bulk size = 1
+[Tue Oct 17 15:01:53 KST 2017] [ReactivePathProvisioningRate]: Inter-arrival Time = 1.40000
+[Tue Oct 17 15:01:53 KST 2017] [ReactivePathProvisioningRate]: Duration Time = 5
+[Tue Oct 17 15:02:47 KST 2017] [ReactivePathProvisioningRate]: Sending ARP(Gratuitous) Completed.
+[Tue Oct 17 15:03:37 KST 2017] [ReactivePathProvisioningRate]: Final max Sample Size: 490
+[Tue Oct 17 15:03:37 KST 2017] [ReactivePathProvisioningRate]: Packet In : 9984
+[Tue Oct 17 15:03:37 KST 2017] [ReactivePathProvisioningRate]: Packet In cost time : 39.516939404
+[Tue Oct 17 15:03:37 KST 2017] [ReactivePathProvisioningRate]: Flow Mod : 7710
+[Tue Oct 17 15:03:37 KST 2017] [ReactivePathProvisioningRate]: Flow Mod Time : 38.903699897
+[Tue Oct 17 15:03:37 KST 2017] [ReactivePathProvisioningRate]: Packet Loss Rate: 0.22776
+[Tue Oct 17 15:03:37 KST 2017] [ReactivePathProvisioningRate]: Packet Loss Rate > 5.0%, Restart to find Optimizational Result.. 
+[Tue Oct 17 15:03:37 KST 2017] [ReactivePathProvisioningRate]: *********************************************
+[Tue Oct 17 15:03:37 KST 2017] [ReactivePathProvisioningRate]: Current bulk size = 1
+[Tue Oct 17 15:03:37 KST 2017] [ReactivePathProvisioningRate]: Inter-arrival Time = 1.50000
+[Tue Oct 17 15:03:37 KST 2017] [ReactivePathProvisioningRate]: Duration Time = 5
+[Tue Oct 17 15:04:31 KST 2017] [ReactivePathProvisioningRate]: Sending ARP(Gratuitous) Completed.
+[Tue Oct 17 15:05:24 KST 2017] [ReactivePathProvisioningRate]: Final max Sample Size: 373
+[Tue Oct 17 15:05:24 KST 2017] [ReactivePathProvisioningRate]: Packet In : 9984
+[Tue Oct 17 15:05:24 KST 2017] [ReactivePathProvisioningRate]: Packet In cost time : 43.120693698
+[Tue Oct 17 15:05:24 KST 2017] [ReactivePathProvisioningRate]: Flow Mod : 8571
+[Tue Oct 17 15:05:24 KST 2017] [ReactivePathProvisioningRate]: Flow Mod Time : 42.713212427
+[Tue Oct 17 15:05:24 KST 2017] [ReactivePathProvisioningRate]: Packet Loss Rate: 0.14153
+[Tue Oct 17 15:05:24 KST 2017] [ReactivePathProvisioningRate]: Packet Loss Rate > 5.0%, Restart to find Optimizational Result.. 
+[Tue Oct 17 15:05:24 KST 2017] [ReactivePathProvisioningRate]: *********************************************
+[Tue Oct 17 15:05:24 KST 2017] [ReactivePathProvisioningRate]: Current bulk size = 1
+[Tue Oct 17 15:05:24 KST 2017] [ReactivePathProvisioningRate]: Inter-arrival Time = 1.60000
+[Tue Oct 17 15:05:24 KST 2017] [ReactivePathProvisioningRate]: Duration Time = 5
+[Tue Oct 17 15:06:19 KST 2017] [ReactivePathProvisioningRate]: Sending ARP(Gratuitous) Completed.
+[Tue Oct 17 15:06:55 KST 2017] [ReactivePathProvisioningRate]: Final max Sample Size: 587
+[Tue Oct 17 15:06:55 KST 2017] [ReactivePathProvisioningRate]: Packet In : 9984
+[Tue Oct 17 15:06:55 KST 2017] [ReactivePathProvisioningRate]: Packet In cost time : 26.136740952
+[Tue Oct 17 15:06:55 KST 2017] [ReactivePathProvisioningRate]: Flow Mod : 5542
+[Tue Oct 17 15:06:55 KST 2017] [ReactivePathProvisioningRate]: Flow Mod Time : 26.160550306
+[Tue Oct 17 15:06:55 KST 2017] [ReactivePathProvisioningRate]: Packet Loss Rate: 0.44491
+[Tue Oct 17 15:06:55 KST 2017] [ReactivePathProvisioningRate]: Packet Loss Rate > 5.0%, Restart to find Optimizational Result.. 
+[Tue Oct 17 15:06:55 KST 2017] [ReactivePathProvisioningRate]: *********************************************
+[Tue Oct 17 15:06:55 KST 2017] [ReactivePathProvisioningRate]: Current bulk size = 1
+[Tue Oct 17 15:06:55 KST 2017] [ReactivePathProvisioningRate]: Inter-arrival Time = 1.70000
+[Tue Oct 17 15:06:55 KST 2017] [ReactivePathProvisioningRate]: Duration Time = 5
+[Tue Oct 17 15:07:49 KST 2017] [ReactivePathProvisioningRate]: Sending ARP(Gratuitous) Completed.
+[Tue Oct 17 15:08:33 KST 2017] [ReactivePathProvisioningRate]: Final max Sample Size: 416
+[Tue Oct 17 15:08:33 KST 2017] [ReactivePathProvisioningRate]: Packet In : 9984
+[Tue Oct 17 15:08:33 KST 2017] [ReactivePathProvisioningRate]: Packet In cost time : 34.216133627
+[Tue Oct 17 15:08:33 KST 2017] [ReactivePathProvisioningRate]: Flow Mod : 8834
+[Tue Oct 17 15:08:33 KST 2017] [ReactivePathProvisioningRate]: Flow Mod Time : 34.128402901
+[Tue Oct 17 15:08:33 KST 2017] [ReactivePathProvisioningRate]: Packet Loss Rate: 0.11518
+[Tue Oct 17 15:08:33 KST 2017] [ReactivePathProvisioningRate]: Packet Loss Rate > 5.0%, Restart to find Optimizational Result.. 
+[Tue Oct 17 15:08:33 KST 2017] [ReactivePathProvisioningRate]: *********************************************
+[Tue Oct 17 15:08:33 KST 2017] [ReactivePathProvisioningRate]: Current bulk size = 1
+[Tue Oct 17 15:08:33 KST 2017] [ReactivePathProvisioningRate]: Inter-arrival Time = 1.80000
+[Tue Oct 17 15:08:33 KST 2017] [ReactivePathProvisioningRate]: Duration Time = 5
+[Tue Oct 17 15:09:28 KST 2017] [ReactivePathProvisioningRate]: Sending ARP(Gratuitous) Completed.
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Final max Sample Size: 229
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Packet In : 9984
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Packet In cost time : 36.64646144
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Flow Mod : 9617
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Flow Mod Time : 36.414241479
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Packet Loss Rate: 0.03676
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Packet Loss Rate < 5.0%, This is the rate 
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: ----------------detail--------------------
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Total Packet Size: 9617
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: ------------------------------------------
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: PacketIn : 36.64646144
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 0 size : 0
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 1 size : 0
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 2 size : 5
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 3 size : 8
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 4 size : 0
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 5 size : 15
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 6 size : 18
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 7 size : 18
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 8 size : 29
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 9 size : 36
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 10 size : 68
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 11 size : 0
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 12 size : 2
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 13 size : 3
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 14 size : 57
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 15 size : 0
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 16 size : 22
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 17 size : 50
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 18 size : 7
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 19 size : 4
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 20 size : 2
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 21 size : 8
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 22 size : 0
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 23 size : 2
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 24 size : 18
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 25 size : 29
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 26 size : 0
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 27 size : 76
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 28 size : 50
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 29 size : 16
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 30 size : 64
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 31 size : 8
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 32 size : 20
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 33 size : 12
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 34 size : 11
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 35 size : 7
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 36 size : 71
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 37 size : 51
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 38 size : 15
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 39 size : 26
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 40 size : 19
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 41 size : 19
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 42 size : 14
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 43 size : 14
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 44 size : 16
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 45 size : 70
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 46 size : 3
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 47 size : 12
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 48 size : 49
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 49 size : 1
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 50 size : 8
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 51 size : 7
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 52 size : 2
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 53 size : 11
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 54 size : 3
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 55 size : 6
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 56 size : 7
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 57 size : 2
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 58 size : 5
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 59 size : 7
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 60 size : 4
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 61 size : 4
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 62 size : 8
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 63 size : 2
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 64 size : 7
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 65 size : 10
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 66 size : 12
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 67 size : 18
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 68 size : 20
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 69 size : 6
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 70 size : 16
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 71 size : 3
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 72 size : 4
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 73 size : 4
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 74 size : 14
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 75 size : 11
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 76 size : 4
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 77 size : 13
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 78 size : 38
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 79 size : 36
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 80 size : 18
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 81 size : 0
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 82 size : 2
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 83 size : 57
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 84 size : 18
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 85 size : 54
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 86 size : 9
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 87 size : 0
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 88 size : 9
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 89 size : 8
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 90 size : 10
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 91 size : 40
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 92 size : 16
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 93 size : 3
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 94 size : 1
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 95 size : 0
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 96 size : 15
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 97 size : 0
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 98 size : 10
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 99 size : 3
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 100 size : 16
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 101 size : 14
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 102 size : 20
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 103 size : 33
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 104 size : 23
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 105 size : 0
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 106 size : 23
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 107 size : 10
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 108 size : 4
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 109 size : 11
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 110 size : 12
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 111 size : 17
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 112 size : 1
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 113 size : 10
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 114 size : 2
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 115 size : 3
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 116 size : 39
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 117 size : 25
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 118 size : 0
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 119 size : 3
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 120 size : 11
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 121 size : 1
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 122 size : 7
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 123 size : 13
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 124 size : 0
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 125 size : 1
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 126 size : 14
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 127 size : 12
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 128 size : 1
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 129 size : 19
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 130 size : 23
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 131 size : 25
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 132 size : 12
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 133 size : 4
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 134 size : 19
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 135 size : 3
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 136 size : 27
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 137 size : 36
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 138 size : 5
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 139 size : 13
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 140 size : 6
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 141 size : 2
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 142 size : 27
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 143 size : 2
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 144 size : 8
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 145 size : 22
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 146 size : 20
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 147 size : 2
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 148 size : 0
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 149 size : 0
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 150 size : 14
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 151 size : 15
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 152 size : 11
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 153 size : 11
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 154 size : 40
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 155 size : 19
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 156 size : 0
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 157 size : 0
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 158 size : 20
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 159 size : 9
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 160 size : 0
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 161 size : 1
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 162 size : 6
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 163 size : 16
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 164 size : 19
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 165 size : 6
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 166 size : 37
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 167 size : 29
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 168 size : 29
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 169 size : 1
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 170 size : 28
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 171 size : 20
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 172 size : 28
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 173 size : 0
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 174 size : 24
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 175 size : 23
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 176 size : 0
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 177 size : 18
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 178 size : 11
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 179 size : 1
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 180 size : 17
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 181 size : 0
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 182 size : 13
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 183 size : 18
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 184 size : 6
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 185 size : 20
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 186 size : 4
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 187 size : 1
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 188 size : 5
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 189 size : 6
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 190 size : 9
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 191 size : 5
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 192 size : 9
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 193 size : 3
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 194 size : 34
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 195 size : 15
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 196 size : 15
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 197 size : 1
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 198 size : 1
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 199 size : 16
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 200 size : 6
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 201 size : 11
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 202 size : 47
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 203 size : 39
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 204 size : 9
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 205 size : 8
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 206 size : 12
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 207 size : 2
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 208 size : 12
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 209 size : 9
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 210 size : 34
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 211 size : 1
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 212 size : 0
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 213 size : 13
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 214 size : 4
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 215 size : 5
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 216 size : 10
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 217 size : 29
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 218 size : 5
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 219 size : 14
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 220 size : 17
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 221 size : 7
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 222 size : 17
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 223 size : 31
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 224 size : 21
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 225 size : 17
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 226 size : 20
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 227 size : 18
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 228 size : 2
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 229 size : 28
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 230 size : 22
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 231 size : 36
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 232 size : 11
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 233 size : 34
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 234 size : 35
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 235 size : 4
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 236 size : 49
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 237 size : 0
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 238 size : 4
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 239 size : 27
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 240 size : 12
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 241 size : 15
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 242 size : 54
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 243 size : 2
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 244 size : 58
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 245 size : 42
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 246 size : 43
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 247 size : 29
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 248 size : 33
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 249 size : 40
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 250 size : 17
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 251 size : 46
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 252 size : 4
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 253 size : 71
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 254 size : 58
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 255 size : 49
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 256 size : 0
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 257 size : 38
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 258 size : 52
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 259 size : 16
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 260 size : 18
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 261 size : 104
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 262 size : 17
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 263 size : 2
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 264 size : 36
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 265 size : 32
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 266 size : 2
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 267 size : 87
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 268 size : 45
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 269 size : 92
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 270 size : 18
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 271 size : 30
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 272 size : 53
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 273 size : 6
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 274 size : 43
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 275 size : 1
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 276 size : 3
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 277 size : 46
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 278 size : 12
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 279 size : 10
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 280 size : 10
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 281 size : 19
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 282 size : 96
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 283 size : 4
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 284 size : 12
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 285 size : 8
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 286 size : 53
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 287 size : 99
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 288 size : 14
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 289 size : 81
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 290 size : 0
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 291 size : 24
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 292 size : 48
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 293 size : 6
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 294 size : 0
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 295 size : 0
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 296 size : 9
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 297 size : 49
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 298 size : 37
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 299 size : 35
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 300 size : 73
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 301 size : 5
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 302 size : 31
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 303 size : 15
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 304 size : 5
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 305 size : 11
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 306 size : 1
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 307 size : 0
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 308 size : 46
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 309 size : 56
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 310 size : 1
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 311 size : 162
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 312 size : 63
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 313 size : 61
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 314 size : 15
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 315 size : 91
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 316 size : 11
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 317 size : 4
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 318 size : 4
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 319 size : 29
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 320 size : 9
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 321 size : 93
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 322 size : 25
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 323 size : 0
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 324 size : 147
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 325 size : 0
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 326 size : 2
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 327 size : 50
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 328 size : 46
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 329 size : 70
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 330 size : 44
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 331 size : 0
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 332 size : 5
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 333 size : 68
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 334 size : 11
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 335 size : 14
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 336 size : 27
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 337 size : 115
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 338 size : 3
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 339 size : 41
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 340 size : 5
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 341 size : 0
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 342 size : 5
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 343 size : 135
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 344 size : 100
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 345 size : 219
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: ------------------------------------------
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Cost Time : 0.025651289
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Rate : 219 / 0.025651289 = 8537.58265numbers/s
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: ------------------------------------------
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 346 size : 39
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 347 size : 1
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 348 size : 26
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 349 size : 46
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 350 size : 6
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 351 size : 27
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 352 size : 81
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 353 size : 62
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 354 size : 47
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 355 size : 6
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 356 size : 133
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 357 size : 101
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 358 size : 37
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 359 size : 0
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 360 size : 66
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 361 size : 31
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 362 size : 229
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: ------------------------------------------
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Cost Time : 0.077322176
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Rate : 229 / 0.077322176 = 2961.63419numbers/s
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: ------------------------------------------
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 363 size : 23
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 364 size : 5
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 365 size : 77
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 366 size : 23
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 367 size : 43
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 368 size : 90
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 369 size : 186
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 370 size : 0
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 371 size : 37
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 372 size : 5
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 373 size : 0
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 374 size : 0
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 375 size : 20
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 376 size : 31
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 377 size : 43
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 378 size : 16
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 379 size : 73
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 380 size : 69
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 381 size : 13
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample packet 382 size : 169
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: ------------------------------------------
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Total PacketOut Size : 9617
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Cost Time : 36.414241479
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Total Average Rate : 9617 / 36.414241479 = 264.09997numbers/s
+
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Total PacketOut Sample Size : 448
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Cost Time : 0.10297346500000001
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Sample Average Rate : 448 / 0.10297346500000001 = 4350.63538numbers/s
+
+[Tue Oct 17 15:10:15 KST 2017] [class com.mirlab.lib.Tasks]: PacketOut largest Sample Size : 229
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Cost Time : 0.077322176
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: Largest Sample Rate : 229 / 0.077322176 = 2961.63419numbers/s
+
+[Tue Oct 17 15:10:15 KST 2017] [ReactivePathProvisioningRate]: MAX Sample Rate : 8537.58265numbers/s

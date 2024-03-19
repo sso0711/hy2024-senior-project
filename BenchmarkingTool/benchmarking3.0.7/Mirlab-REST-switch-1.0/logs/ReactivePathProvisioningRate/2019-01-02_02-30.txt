@@ -1,0 +1,216 @@
+***************SDN Controller Information***************
+
+Controller Mode: STANDALONE
+
+Controller Type: ONOS
+
+Ip/Port: 192.168.25.27:6633
+
+*****************Benchmark  Information*****************
+
+OpenFlow Version: Openflow 1.3 
+
+Topology Type: Linear
+
+Number of Switch: 1 
+
+Number of Host per Switch: 100 
+
+Test Time: 5s 
+
+Bulk size start from: 1
+
+The packet loss threshoud : 5.0%
+
+Asynchronous Message Type: TCP
+
+Reactive Path Provisioning Packet Type: TCP
+
+*******************************************************
+
+[Wed Jan 02 02:21:52 KST 2019] [class com.Main]: "REACTIVE_PATH_PROVISIONING_RATE" Test Start... 
+
+[Wed Jan 02 02:21:52 KST 2019] [class com.mirlab.metric.southbound.ReactivePathProvisioningRate]: Start to find optimizational Bulk Size. Bulk Size Start from:1
+[Wed Jan 02 02:21:52 KST 2019] [ReactivePathProvisioningRate]: *********************************************
+[Wed Jan 02 02:21:52 KST 2019] [ReactivePathProvisioningRate]: Current bulk size = 1
+[Wed Jan 02 02:21:52 KST 2019] [ReactivePathProvisioningRate]: Inter-arrival Time = 1.00000
+[Wed Jan 02 02:21:52 KST 2019] [ReactivePathProvisioningRate]: Duration Time = 5
+[Wed Jan 02 02:22:36 KST 2019] [ReactivePathProvisioningRate]: Sending ARP(Gratuitous) Completed.
+[Wed Jan 02 02:23:04 KST 2019] [ReactivePathProvisioningRate]: Final max Sample Size: 1201
+[Wed Jan 02 02:23:04 KST 2019] [ReactivePathProvisioningRate]: Packet In : 9984
+[Wed Jan 02 02:23:04 KST 2019] [ReactivePathProvisioningRate]: Packet In cost time : 17.715762687
+[Wed Jan 02 02:23:04 KST 2019] [ReactivePathProvisioningRate]: Flow Mod : 9998
+[Wed Jan 02 02:23:04 KST 2019] [ReactivePathProvisioningRate]: Flow Mod Time : 17.766070635
+[Wed Jan 02 02:23:04 KST 2019] [ReactivePathProvisioningRate]: Packet Loss Rate: 0.00000
+[Wed Jan 02 02:23:04 KST 2019] [ReactivePathProvisioningRate]: Packet Loss Rate < 5.0%, Restart to find Optimizational Result.. 
+[Wed Jan 02 02:23:04 KST 2019] [ReactivePathProvisioningRate]: *********************************************
+[Wed Jan 02 02:23:04 KST 2019] [ReactivePathProvisioningRate]: Current bulk size = 2
+[Wed Jan 02 02:23:04 KST 2019] [ReactivePathProvisioningRate]: Inter-arrival Time = 1.00000
+[Wed Jan 02 02:23:04 KST 2019] [ReactivePathProvisioningRate]: Duration Time = 5
+[Wed Jan 02 02:23:48 KST 2019] [ReactivePathProvisioningRate]: Sending ARP(Gratuitous) Completed.
+[Wed Jan 02 02:24:07 KST 2019] [ReactivePathProvisioningRate]: Final max Sample Size: 2234
+[Wed Jan 02 02:24:07 KST 2019] [ReactivePathProvisioningRate]: Packet In : 9968
+[Wed Jan 02 02:24:07 KST 2019] [ReactivePathProvisioningRate]: Packet In cost time : 9.03369459
+[Wed Jan 02 02:24:07 KST 2019] [ReactivePathProvisioningRate]: Flow Mod : 9978
+[Wed Jan 02 02:24:07 KST 2019] [ReactivePathProvisioningRate]: Flow Mod Time : 9.082110619
+[Wed Jan 02 02:24:07 KST 2019] [ReactivePathProvisioningRate]: Packet Loss Rate: 0.00000
+[Wed Jan 02 02:24:07 KST 2019] [ReactivePathProvisioningRate]: Packet Loss Rate < 5.0%, Restart to find Optimizational Result.. 
+[Wed Jan 02 02:24:07 KST 2019] [ReactivePathProvisioningRate]: *********************************************
+[Wed Jan 02 02:24:07 KST 2019] [ReactivePathProvisioningRate]: Current bulk size = 3
+[Wed Jan 02 02:24:07 KST 2019] [ReactivePathProvisioningRate]: Inter-arrival Time = 1.00000
+[Wed Jan 02 02:24:07 KST 2019] [ReactivePathProvisioningRate]: Duration Time = 5
+[Wed Jan 02 02:24:51 KST 2019] [ReactivePathProvisioningRate]: Sending ARP(Gratuitous) Completed.
+[Wed Jan 02 02:25:07 KST 2019] [ReactivePathProvisioningRate]: Final max Sample Size: 1994
+[Wed Jan 02 02:25:07 KST 2019] [ReactivePathProvisioningRate]: Packet In : 9951
+[Wed Jan 02 02:25:07 KST 2019] [ReactivePathProvisioningRate]: Packet In cost time : 6.059484551
+[Wed Jan 02 02:25:07 KST 2019] [ReactivePathProvisioningRate]: Flow Mod : 8371
+[Wed Jan 02 02:25:07 KST 2019] [ReactivePathProvisioningRate]: Flow Mod Time : 6.10965757
+[Wed Jan 02 02:25:07 KST 2019] [ReactivePathProvisioningRate]: Packet Loss Rate: 0.15878
+[Wed Jan 02 02:25:07 KST 2019] [ReactivePathProvisioningRate]: Packet Loss Rate > 5.0%, Restart to find Optimizational Result.. 
+[Wed Jan 02 02:25:07 KST 2019] [ReactivePathProvisioningRate]: *********************************************
+[Wed Jan 02 02:25:07 KST 2019] [ReactivePathProvisioningRate]: Current bulk size = 3
+[Wed Jan 02 02:25:07 KST 2019] [ReactivePathProvisioningRate]: Inter-arrival Time = 1.10000
+[Wed Jan 02 02:25:07 KST 2019] [ReactivePathProvisioningRate]: Duration Time = 5
+[Wed Jan 02 02:25:51 KST 2019] [ReactivePathProvisioningRate]: Sending ARP(Gratuitous) Completed.
+[Wed Jan 02 02:26:07 KST 2019] [ReactivePathProvisioningRate]: Final max Sample Size: 1744
+[Wed Jan 02 02:26:07 KST 2019] [ReactivePathProvisioningRate]: Packet In : 9951
+[Wed Jan 02 02:26:07 KST 2019] [ReactivePathProvisioningRate]: Packet In cost time : 6.003577432
+[Wed Jan 02 02:26:07 KST 2019] [ReactivePathProvisioningRate]: Flow Mod : 8343
+[Wed Jan 02 02:26:07 KST 2019] [ReactivePathProvisioningRate]: Flow Mod Time : 6.056583586
+[Wed Jan 02 02:26:07 KST 2019] [ReactivePathProvisioningRate]: Packet Loss Rate: 0.16159
+[Wed Jan 02 02:26:07 KST 2019] [ReactivePathProvisioningRate]: Packet Loss Rate > 5.0%, Restart to find Optimizational Result.. 
+[Wed Jan 02 02:26:07 KST 2019] [ReactivePathProvisioningRate]: *********************************************
+[Wed Jan 02 02:26:07 KST 2019] [ReactivePathProvisioningRate]: Current bulk size = 3
+[Wed Jan 02 02:26:07 KST 2019] [ReactivePathProvisioningRate]: Inter-arrival Time = 1.20000
+[Wed Jan 02 02:26:07 KST 2019] [ReactivePathProvisioningRate]: Duration Time = 5
+[Wed Jan 02 02:26:51 KST 2019] [ReactivePathProvisioningRate]: Sending ARP(Gratuitous) Completed.
+[Wed Jan 02 02:27:08 KST 2019] [ReactivePathProvisioningRate]: Final max Sample Size: 2227
+[Wed Jan 02 02:27:08 KST 2019] [ReactivePathProvisioningRate]: Packet In : 9951
+[Wed Jan 02 02:27:08 KST 2019] [ReactivePathProvisioningRate]: Packet In cost time : 6.400358326
+[Wed Jan 02 02:27:08 KST 2019] [ReactivePathProvisioningRate]: Flow Mod : 7471
+[Wed Jan 02 02:27:08 KST 2019] [ReactivePathProvisioningRate]: Flow Mod Time : 6.455491612
+[Wed Jan 02 02:27:08 KST 2019] [ReactivePathProvisioningRate]: Packet Loss Rate: 0.24922
+[Wed Jan 02 02:27:08 KST 2019] [ReactivePathProvisioningRate]: Packet Loss Rate > 5.0%, Restart to find Optimizational Result.. 
+[Wed Jan 02 02:27:08 KST 2019] [ReactivePathProvisioningRate]: *********************************************
+[Wed Jan 02 02:27:08 KST 2019] [ReactivePathProvisioningRate]: Current bulk size = 3
+[Wed Jan 02 02:27:08 KST 2019] [ReactivePathProvisioningRate]: Inter-arrival Time = 1.30000
+[Wed Jan 02 02:27:08 KST 2019] [ReactivePathProvisioningRate]: Duration Time = 5
+[Wed Jan 02 02:27:52 KST 2019] [ReactivePathProvisioningRate]: Sending ARP(Gratuitous) Completed.
+[Wed Jan 02 02:28:08 KST 2019] [ReactivePathProvisioningRate]: Final max Sample Size: 1597
+[Wed Jan 02 02:28:08 KST 2019] [ReactivePathProvisioningRate]: Packet In : 9951
+[Wed Jan 02 02:28:08 KST 2019] [ReactivePathProvisioningRate]: Packet In cost time : 6.029708361
+[Wed Jan 02 02:28:08 KST 2019] [ReactivePathProvisioningRate]: Flow Mod : 7938
+[Wed Jan 02 02:28:08 KST 2019] [ReactivePathProvisioningRate]: Flow Mod Time : 6.082522698
+[Wed Jan 02 02:28:08 KST 2019] [ReactivePathProvisioningRate]: Packet Loss Rate: 0.20229
+[Wed Jan 02 02:28:08 KST 2019] [ReactivePathProvisioningRate]: Packet Loss Rate > 5.0%, Restart to find Optimizational Result.. 
+[Wed Jan 02 02:28:08 KST 2019] [ReactivePathProvisioningRate]: *********************************************
+[Wed Jan 02 02:28:08 KST 2019] [ReactivePathProvisioningRate]: Current bulk size = 3
+[Wed Jan 02 02:28:08 KST 2019] [ReactivePathProvisioningRate]: Inter-arrival Time = 1.40000
+[Wed Jan 02 02:28:08 KST 2019] [ReactivePathProvisioningRate]: Duration Time = 5
+[Wed Jan 02 02:28:52 KST 2019] [ReactivePathProvisioningRate]: Sending ARP(Gratuitous) Completed.
+[Wed Jan 02 02:29:08 KST 2019] [ReactivePathProvisioningRate]: Final max Sample Size: 2198
+[Wed Jan 02 02:29:08 KST 2019] [ReactivePathProvisioningRate]: Packet In : 9951
+[Wed Jan 02 02:29:08 KST 2019] [ReactivePathProvisioningRate]: Packet In cost time : 5.944917768
+[Wed Jan 02 02:29:08 KST 2019] [ReactivePathProvisioningRate]: Flow Mod : 8586
+[Wed Jan 02 02:29:08 KST 2019] [ReactivePathProvisioningRate]: Flow Mod Time : 5.994289602
+[Wed Jan 02 02:29:08 KST 2019] [ReactivePathProvisioningRate]: Packet Loss Rate: 0.13717
+[Wed Jan 02 02:29:08 KST 2019] [ReactivePathProvisioningRate]: Packet Loss Rate > 5.0%, Restart to find Optimizational Result.. 
+[Wed Jan 02 02:29:08 KST 2019] [ReactivePathProvisioningRate]: *********************************************
+[Wed Jan 02 02:29:08 KST 2019] [ReactivePathProvisioningRate]: Current bulk size = 3
+[Wed Jan 02 02:29:08 KST 2019] [ReactivePathProvisioningRate]: Inter-arrival Time = 1.50000
+[Wed Jan 02 02:29:08 KST 2019] [ReactivePathProvisioningRate]: Duration Time = 5
+[Wed Jan 02 02:29:52 KST 2019] [ReactivePathProvisioningRate]: Sending ARP(Gratuitous) Completed.
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Final max Sample Size: 1647
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Packet In : 9951
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Packet In cost time : 9.286804238
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Flow Mod : 9985
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Flow Mod Time : 9.344179162
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Packet Loss Rate: 0.00000
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Packet Loss Rate < 5.0%, This is the rate 
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: ----------------detail--------------------
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Total Packet Size: 9985
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: ------------------------------------------
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: PacketIn : 9.286804238
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Sample packet 0 size : 666
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: ------------------------------------------
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Cost Time : 0.641845517
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Rate : 666 / 0.641845517 = 1037.63286numbers/s
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: ------------------------------------------
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Sample packet 1 size : 1306
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: ------------------------------------------
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Cost Time : 1.198261536
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Rate : 1306 / 1.198261536 = 1089.91231numbers/s
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: ------------------------------------------
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Sample packet 2 size : 520
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: ------------------------------------------
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Cost Time : 0.496754238
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Rate : 520 / 0.496754238 = 1046.79530numbers/s
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: ------------------------------------------
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Sample packet 3 size : 30
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Sample packet 4 size : 3
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Sample packet 5 size : 16
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Sample packet 6 size : 277
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: ------------------------------------------
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Cost Time : 0.383426975
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Rate : 277 / 0.383426975 = 722.43222numbers/s
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: ------------------------------------------
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Sample packet 7 size : 1530
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: ------------------------------------------
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Cost Time : 1.167259684
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Rate : 1530 / 1.167259684 = 1310.76231numbers/s
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: ------------------------------------------
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Sample packet 8 size : 548
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: ------------------------------------------
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Cost Time : 0.495540975
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Rate : 548 / 0.495540975 = 1105.86213numbers/s
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: ------------------------------------------
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Sample packet 9 size : 135
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Sample packet 10 size : 779
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: ------------------------------------------
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Cost Time : 0.884377128
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Rate : 779 / 0.884377128 = 880.84594numbers/s
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: ------------------------------------------
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Sample packet 11 size : 9
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Sample packet 12 size : 26
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Sample packet 13 size : 931
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: ------------------------------------------
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Cost Time : 0.644079132
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Rate : 931 / 0.644079132 = 1445.47456numbers/s
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: ------------------------------------------
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Sample packet 14 size : 444
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: ------------------------------------------
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Cost Time : 0.389069178
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Rate : 444 / 0.389069178 = 1141.18523numbers/s
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: ------------------------------------------
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Sample packet 15 size : 1647
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: ------------------------------------------
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Cost Time : 1.500125265
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Rate : 1647 / 1.500125265 = 1097.90831numbers/s
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: ------------------------------------------
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Sample packet 16 size : 89
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Sample packet 17 size : 52
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Sample packet 18 size : 3
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Sample packet 19 size : 72
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Sample packet 20 size : 321
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: ------------------------------------------
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Cost Time : 0.23697
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Rate : 321 / 0.23697 = 1354.60185numbers/s
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: ------------------------------------------
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Sample packet 21 size : 559
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Cost Time : 0.318653952
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Rate : 559 / 0.318653952 = 1754.25409numbers/s
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: ------------------------------------------
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: ------------------------------------------
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Total PacketOut Size : 9985
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Cost Time : 9.344179162
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Total Average Rate : 9985 / 9.344179162 = 1068.57968numbers/s
+
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Total PacketOut Sample Size : 9528
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Cost Time : 8.35636358
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Sample Average Rate : 9528 / 8.35636358 = 1140.20888numbers/s
+
+[Wed Jan 02 02:30:12 KST 2019] [class com.mirlab.lib.Tasks]: PacketOut largest Sample Size : 1647
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Cost Time : 1.500125265
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: Largest Sample Rate : 1647 / 1.500125265 = 1097.90831numbers/s
+
+[Wed Jan 02 02:30:12 KST 2019] [ReactivePathProvisioningRate]: MAX Sample Rate : 1754.25409numbers/s

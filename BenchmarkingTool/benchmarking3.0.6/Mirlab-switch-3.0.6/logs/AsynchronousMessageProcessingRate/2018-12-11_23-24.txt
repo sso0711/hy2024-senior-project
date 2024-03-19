@@ -1,0 +1,140 @@
+***************SDN Controller Information***************
+
+Controller Mode: STANDALONE
+
+Controller Type: ONOS
+
+Ip/Port: 192.168.1.114:6633
+
+*****************Benchmark  Information*****************
+
+OpenFlow Version: Openflow 1.3 
+
+Topology Type: Linear
+
+Number of Switch: 11 
+
+Number of Host per Switch: 100 
+
+Test Time: 5s 
+
+Bulk size start from: 1
+
+The packet loss threshoud : 5.0%
+
+Asynchronous Message Type: TCP
+
+Reactive Path Provisioning Packet Type: TCP
+
+*******************************************************
+
+[Tue Dec 11 23:21:33 KST 2018] [class com.Main]: "ASYNCHRONOUS_MESSAGE_PROCESSING_RATE" Test Start... 
+
+[Tue Dec 11 23:21:33 KST 2018] [AsynchronousMessageProcessingRate]: *********************************************
+[Tue Dec 11 23:21:33 KST 2018] [AsynchronousMessageProcessingRate]: Current bulk size = 1
+[Tue Dec 11 23:21:33 KST 2018] [AsynchronousMessageProcessingRate]: Inter-arrival Time = 1.00000
+[Tue Dec 11 23:21:33 KST 2018] [AsynchronousMessageProcessingRate]: Duration Time = 5
+[Tue Dec 11 23:22:17 KST 2018] [AsynchronousMessageProcessingRate]: Final max Sample Size: 9
+[Tue Dec 11 23:22:17 KST 2018] [AsynchronousMessageProcessingRate]: Sample packet < 200, Please Try it again!
+[Tue Dec 11 23:22:21 KST 2018] [AsynchronousMessageProcessingRate]: *********************************************
+[Tue Dec 11 23:22:21 KST 2018] [AsynchronousMessageProcessingRate]: Current bulk size = 1
+[Tue Dec 11 23:22:21 KST 2018] [AsynchronousMessageProcessingRate]: Inter-arrival Time = 1.00000
+[Tue Dec 11 23:22:21 KST 2018] [AsynchronousMessageProcessingRate]: Duration Time = 5
+[Tue Dec 11 23:22:41 KST 2018] [AsynchronousMessageProcessingRate]: Final max Sample Size: 91
+[Tue Dec 11 23:22:41 KST 2018] [AsynchronousMessageProcessingRate]: Sample packet < 200, Please Try it again!
+[Tue Dec 11 23:22:41 KST 2018] [AsynchronousMessageProcessingRate]: *********************************************
+[Tue Dec 11 23:22:41 KST 2018] [AsynchronousMessageProcessingRate]: Current bulk size = 1
+[Tue Dec 11 23:22:41 KST 2018] [AsynchronousMessageProcessingRate]: Inter-arrival Time = 1.00000
+[Tue Dec 11 23:22:41 KST 2018] [AsynchronousMessageProcessingRate]: Duration Time = 5
+[Tue Dec 11 23:23:02 KST 2018] [AsynchronousMessageProcessingRate]: Final max Sample Size: 97
+[Tue Dec 11 23:23:02 KST 2018] [AsynchronousMessageProcessingRate]: Sample packet < 200, Please Try it again!
+[Tue Dec 11 23:23:02 KST 2018] [AsynchronousMessageProcessingRate]: *********************************************
+[Tue Dec 11 23:23:02 KST 2018] [AsynchronousMessageProcessingRate]: Current bulk size = 1
+[Tue Dec 11 23:23:02 KST 2018] [AsynchronousMessageProcessingRate]: Inter-arrival Time = 1.00000
+[Tue Dec 11 23:23:02 KST 2018] [AsynchronousMessageProcessingRate]: Duration Time = 5
+[Tue Dec 11 23:23:22 KST 2018] [AsynchronousMessageProcessingRate]: Final max Sample Size: 142
+[Tue Dec 11 23:23:22 KST 2018] [AsynchronousMessageProcessingRate]: Sample packet < 200, Please Try it again!
+[Tue Dec 11 23:23:22 KST 2018] [AsynchronousMessageProcessingRate]: *********************************************
+[Tue Dec 11 23:23:22 KST 2018] [AsynchronousMessageProcessingRate]: Current bulk size = 1
+[Tue Dec 11 23:23:22 KST 2018] [AsynchronousMessageProcessingRate]: Inter-arrival Time = 1.00000
+[Tue Dec 11 23:23:22 KST 2018] [AsynchronousMessageProcessingRate]: Duration Time = 5
+[Tue Dec 11 23:23:42 KST 2018] [AsynchronousMessageProcessingRate]: Final max Sample Size: 291
+[Tue Dec 11 23:23:42 KST 2018] [class com.mirlab.metric.southbound.AsynchronousMessageProcessingRate]: Packet In: 2712
+[Tue Dec 11 23:23:42 KST 2018] [class com.mirlab.metric.southbound.AsynchronousMessageProcessingRate]: Packet Out: 2305
+[Tue Dec 11 23:23:42 KST 2018] [class com.mirlab.metric.southbound.AsynchronousMessageProcessingRate]: Packet Loss Rate: 0.15007
+[Tue Dec 11 23:23:42 KST 2018] [class com.mirlab.metric.southbound.AsynchronousMessageProcessingRate]: Packet Loss Rate > 5.0%, Restart to find Optimizational Result.. 
+[Tue Dec 11 23:23:42 KST 2018] [AsynchronousMessageProcessingRate]: *********************************************
+[Tue Dec 11 23:23:42 KST 2018] [AsynchronousMessageProcessingRate]: Current bulk size = 1
+[Tue Dec 11 23:23:42 KST 2018] [AsynchronousMessageProcessingRate]: Inter-arrival Time = 1.10000
+[Tue Dec 11 23:23:42 KST 2018] [AsynchronousMessageProcessingRate]: Duration Time = 5
+[Tue Dec 11 23:24:02 KST 2018] [AsynchronousMessageProcessingRate]: Final max Sample Size: 496
+[Tue Dec 11 23:24:02 KST 2018] [class com.mirlab.metric.southbound.AsynchronousMessageProcessingRate]: Packet In: 2732
+[Tue Dec 11 23:24:02 KST 2018] [class com.mirlab.metric.southbound.AsynchronousMessageProcessingRate]: Packet Out: 2546
+[Tue Dec 11 23:24:02 KST 2018] [class com.mirlab.metric.southbound.AsynchronousMessageProcessingRate]: Packet Loss Rate: 0.06808
+[Tue Dec 11 23:24:02 KST 2018] [class com.mirlab.metric.southbound.AsynchronousMessageProcessingRate]: Packet Loss Rate > 5.0%, Restart to find Optimizational Result.. 
+[Tue Dec 11 23:24:02 KST 2018] [AsynchronousMessageProcessingRate]: *********************************************
+[Tue Dec 11 23:24:02 KST 2018] [AsynchronousMessageProcessingRate]: Current bulk size = 1
+[Tue Dec 11 23:24:02 KST 2018] [AsynchronousMessageProcessingRate]: Inter-arrival Time = 1.20000
+[Tue Dec 11 23:24:02 KST 2018] [AsynchronousMessageProcessingRate]: Duration Time = 5
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: Final max Sample Size: 414
+[Tue Dec 11 23:24:22 KST 2018] [class com.mirlab.metric.southbound.AsynchronousMessageProcessingRate]: Packet In: 2681
+[Tue Dec 11 23:24:22 KST 2018] [class com.mirlab.metric.southbound.AsynchronousMessageProcessingRate]: Packet Out: 2695
+[Tue Dec 11 23:24:22 KST 2018] [class com.mirlab.metric.southbound.AsynchronousMessageProcessingRate]: Packet Loss Rate: -0.00522
+[Tue Dec 11 23:24:22 KST 2018] [class com.mirlab.metric.southbound.AsynchronousMessageProcessingRate]: Packet Loss Rate < 5.0%, This is the rate 
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: ----------------detail--------------------
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: Total Packet Size: 2695
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: ------------------------------------------
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: Sample packet 0 size : 3
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: Sample packet 1 size : 83
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: Sample packet 2 size : 6
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: Sample packet 3 size : 9
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: Sample packet 4 size : 67
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: Sample packet 5 size : 19
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: Sample packet 6 size : 10
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: Sample packet 7 size : 132
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: Sample packet 8 size : 227
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: ------------------------------------------
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: Cost Time : 0.405163904
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: Rate : 227 / 0.405163904 = 560.26709numbers/s
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: ------------------------------------------
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: Sample packet 9 size : 108
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: Sample packet 10 size : 166
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: Sample packet 11 size : 163
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: Sample packet 12 size : 140
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: Sample packet 13 size : 28
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: Sample packet 14 size : 2
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: Sample packet 15 size : 9
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: Sample packet 16 size : 70
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: Sample packet 17 size : 414
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: ------------------------------------------
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: Cost Time : 0.749429379
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: Rate : 414 / 0.749429379 = 552.42030numbers/s
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: ------------------------------------------
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: Sample packet 18 size : 9
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: Sample packet 19 size : 56
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: Sample packet 20 size : 226
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: ------------------------------------------
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: Cost Time : 0.423887631
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: Rate : 226 / 0.423887631 = 533.16017numbers/s
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: ------------------------------------------
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: Sample packet 21 size : 47
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: Sample packet 22 size : 160
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: Sample packet 23 size : 152
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: Sample packet 24 size : 364
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: Cost Time : 0.686024194
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: Rate : 364 / 0.686024194 = 530.59353numbers/s
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: ------------------------------------------
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: ------------------------------------------
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: Total PacketOut Size : 2695
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: Cost Time : 5.046211986
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: Total Average Rate : 2695 / 5.046211986 = 534.06397numbers/s
+
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: Total PacketOut Sample Size : 1231
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: Cost Time : 2.264505108
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: Sample Average Rate : 1231 / 2.264505108 = 543.60663numbers/s
+
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: PacketOut largest Sample Size : 414
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: Cost Time : 0.749429379
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: Largest Sample Rate : 414 / 0.749429379 = 552.42030numbers/s
+
+[Tue Dec 11 23:24:22 KST 2018] [AsynchronousMessageProcessingRate]: MAX Sample Rate : 560.26709numbers/s
