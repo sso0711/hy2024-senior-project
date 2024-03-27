@@ -78,8 +78,7 @@ public class DistributedFrame {
 		
 		JPanel panel = new JPanel();
 		panel.setLayout(null);
-		panel.setBorder(new SoftBevelBorder(BevelBorder.LOWERED, null, null,
-		
+		panel.setBorder(new SoftBevelBorder(BevelBorder.LOWERED, null, null,
 						null, null));
 		panel.setBounds(39, 70, 514, 102);
 		frmDistrubutedBenchmarkReport.getContentPane().add(panel);

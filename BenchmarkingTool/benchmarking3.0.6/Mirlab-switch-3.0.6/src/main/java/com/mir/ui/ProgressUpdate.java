@@ -4,7 +4,7 @@ import com.Main;
 import com.mirlab.enumType.SouthboundMetric;
 import com.mirlab.global.Global;
 
-//更新进度条的class
+//진행률 bar 업데이트 class
 
 public class ProgressUpdate extends Thread {
 
@@ -33,7 +33,7 @@ public class ProgressUpdate extends Thread {
 						+ currentNum + "/" + numberOfMetric + "      Expected Time: " + "???" + " Second" + " .");
 
 				try {
-					Thread.sleep(333);// 休眠333
+					Thread.sleep(333);
 				} catch (InterruptedException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();

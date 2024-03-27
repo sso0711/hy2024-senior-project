@@ -49,13 +49,13 @@ public class S_RunButton {
 
 			Initializer.INITIAL_CHANNEL_POOL();
 			JOptionPane.showMessageDialog(null, "Please check if controller is running.", "Disconnected",
-					JOptionPane.ERROR_MESSAGE);// 跳出新窗口
+					JOptionPane.ERROR_MESSAGE);// 새 창 건너뛰기
 
 		}
 
 	}
 
-	private static void checkDistributed() {// 把所有的变数全都放到json格式变量里面
+	private static void checkDistributed() {// 모든 변수를 JSON 형식으로
 
 		DistributedServer distributedServer = DistributedServer.getInstance();
 
@@ -140,7 +140,7 @@ public class S_RunButton {
 
 	}
 
-	public static void startTasks() {// 按 run按钮之后的主要实行代码
+	public static void startTasks() {// run 버튼 클릭 시 주요 실행 코드
 		// start Metric
 
 		Main.gui.S_LOG_TEXT.setText("");
@@ -202,18 +202,17 @@ public class S_RunButton {
 
 		Main.gui.S_TOPO_TEXT.append("Number Of Node: " + Global.NUMBER_OF_TEST_SWITCH);
 
-		Main.gui.S_progressBarTotal.setMaximum(1);// 进度条
+		Main.gui.S_progressBarTotal.setMaximum(1);// 진척도
 		Main.gui.S_progressBarTotal.setValue(0);
 
 		switch (Global.southboundMetric) {
-		case TOPOLOGY_DISCOVERY_TIME:// 拓扑发现时间
+		case TOPOLOGY_DISCOVERY_TIME:
 
 			Global.TOPOLOGY_DISCOVERY_TEST_NODE_ID = Global.NUMBER_OF_TEST_SWITCH + 1;
 			Global.PROGRESS_MAX_VALUE = 26;
 			Main.gui.S_progressBar.setMaximum(Global.PROGRESS_MAX_VALUE);
 			Main.gui.S_progressBar.setValue(0);
-			Global.TEST_INIT_TIME = System.currentTimeMillis();
-			// 获取现在时间并赋值给global变数
+			Global.TEST_INIT_TIME = System.currentTimeMillis(); // 현재 시간 가져와서 global 변수에 할당
 
 			ProgressUpdate pu = new ProgressUpdate();
 			pu.updateStart(1, 1);
@@ -322,18 +321,18 @@ public class S_RunButton {
 
 		case PROACTIVE_PATH_PROVISIONING_TIME:
 			Initializer.INITIAL_CHANNEL_POOL();
-			// 未完待续
+			// 구현 x
 			break;
 		case PROACTIVE_PATH_PROVISIONING_RATE:
 			Initializer.INITIAL_CHANNEL_POOL();
-			// 未完待续
+			// 구현 x
 			break;
 		case CONTROL_SESSION_CAPACITY_CCD:
 
 			Global.PROGRESS_MAX_VALUE = 2;
 			Main.gui.S_progressBar.setMaximum(Global.PROGRESS_MAX_VALUE);
 			Main.gui.S_progressBar.setValue(0);
-			Global.TEST_INIT_TIME = System.currentTimeMillis();// 1970.1.1时起的毫秒数
+			Global.TEST_INIT_TIME = System.currentTimeMillis();// 1970.1.1시 시작 밀리초
 
 			pu = new ProgressUpdate();
 			pu.updateStart(1, 1);
@@ -381,17 +380,19 @@ public class S_RunButton {
 		case EXCEPTION_HANDLING_SECURITY:
 		case DOS_ATTACKS_SECURITY:
 			Initializer.INITIAL_CHANNEL_POOL();
+			// 구현 x
 			break;
 		case CONTROLLER_FAILOVER_TIME_RELIABILITY:
 			Initializer.INITIAL_CHANNEL_POOL();
+			// 구현 x
 			break;
 
 		case NETWORK_RE_PROVISIONING_TIME_RELIABILITY_NODE_FAILURE_VS_FAILURE:
 			Initializer.INITIAL_CHANNEL_POOL();
+			// 구현 x
 			break;
 
 		case TEST_TOTAL:
-
 			Global.TEST_INIT_TIME = System.currentTimeMillis();
 			Main.gui.S_progressBarTotal.setMaximum(10);
 			Main.gui.S_progressBarTotal.setValue(0);

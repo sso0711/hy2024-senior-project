@@ -189,6 +189,7 @@ public class GUI {
 
 			}
 		});
+
 		mntmConfiguration.setIcon(new ImageIcon(GUI.class.getResource("/com/alee/utils/icons/selection/gripper.png")));
 		windowMB.add(mntmConfiguration);
 		reportWindowMI.setIcon(new ImageIcon(GUI.class.getResource("/com/alee/examples/groups/table/icons/table.png")));
@@ -265,13 +266,13 @@ public class GUI {
 		SNbound.setLayout(null);
 		tabbedPane_1.addTab("SNbound", null, SNbound, null);
 
-		sounthbound(southbound);
+		southbound(southbound);
 		northbound(northbound);
 		
 	
 	}
 
-	private void sounthbound(JPanel southbound) {
+	private void southbound(JPanel southbound) {
 		JScrollPane metricsPane = new JScrollPane();
 		metricsPane.setBorder(new BevelBorder(BevelBorder.LOWERED, null, null, null, null));
 		metricsPane.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
@@ -309,15 +310,15 @@ public class GUI {
 
 		S_comboBoxTestType.setModel(new DefaultComboBoxModel(new String[] { "Throughput", "Latency" }));
 
-		// 关于run按钮的代码
+		// run 버튼에 관한 코드
 		S_startButton = new JButton("Run");
 		S_startButton.setFont(new Font("Times New Roman", Font.PLAIN, 12));
 		S_startButton.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {// 按键之后开始實行下列代碼
-				S_startButton.setEnabled(false);// run按钮不可按
-				S_metricList.setEnabled(false);// metric 栏不可选择
+			public void actionPerformed(ActionEvent e) {// 버튼을 누른 후 다음 코드 시행
+				S_startButton.setEnabled(false);// 버튼 비활성화
+				S_metricList.setEnabled(false);// metric 비활성화
 
-				// metric index，获得metric的选择值并赋值给global变数
+				// metric index，metric의 선택값을 얻고 global 변수에 값 부여
 //				Global.TEST_METRIC = S_metriclist.
 //						S_metricList.getSelectedIndex();
 //				String metric = S_metricList.getSelectedValue().toString()
@@ -333,11 +334,11 @@ public class GUI {
 				// -- Benchmark configuration 2
 //			    OF_10(1), OF_11(2), OF_12(3), OF_13(4), OF_14(5);
 
-				// topology type 圆形或者直线
+				// topology type RING or LINEAR
 //				Global.TOPO_TYPE = S_comboBoxTopoType.getSelectedIndex();
 				Global.topoType = TopologyType.valueOf(S_comboBoxTopoType.getSelectedItem().toString().toUpperCase());
 				// --Benchmark configuration 3
-				// node # node数量
+				// node # node 수
 				Global.NUMBER_OF_TEST_SWITCH = Integer.parseInt((String) S_numberOfS.getText().toString());
 
 				// test time
@@ -348,22 +349,22 @@ public class GUI {
 				Global.HOST_IP[0] = Integer.parseInt((String) S_hostIP_1.getText().toString());
 				Global.HOST_IP[1] = Integer.parseInt((String) S_hostIP_2.getText().toString());
 
-				// SDN controller configuration 一
+				// SDN controller configuration 1
 				// Controller Mode （Standalone， Cluster）
 //				Global.CONTROLLER_MODE = S_comboBoxControllerMode.getSelectedIndex();
 				Global.conMode = ControllerMode
 						.valueOf(S_comboBoxControllerMode.getSelectedItem().toString().toUpperCase());
 				if (Global.conMode == ControllerMode.STANDALONE) {
 					// standalone mode
-					// SDN controller configuration 三
-					StringTokenizer st = new StringTokenizer(S_controller1IpPort.getText().toString(), ":");// 分词器，分离ip和port
+					// SDN controller configuration 3
+					StringTokenizer st = new StringTokenizer(S_controller1IpPort.getText().toString(), ":");// ip와 port 분리
 					Global.SDN_CONTROLLER_IP[0] = st.nextToken();
 					Global.SDN_CONTROLLER_PORT = Integer.parseInt(st.nextToken().toString());
 					// Global.NODE_SIZE = 1000;
 					// Global.BUFF_SIZE = 1000000;
 				} else {
 					// cluster mode
-					// SDN controller configuration 三
+					// SDN controller configuration 3
 					StringTokenizer st = new StringTokenizer(S_controller1IpPort.getText().toString(), ":");
 					Global.SDN_CONTROLLER_IP[0] = st.nextToken();
 					Global.SDN_CONTROLLER_PORT = Integer.parseInt(st.nextToken().toString());
@@ -371,10 +372,10 @@ public class GUI {
 					// Global.BUFF_SIZE = 40000;
 				}
 
-				// packet loss rate 未完成
+				// packet loss rate 미완성
 				Global.PACKET_LOSS_RATE = Double.parseDouble(cf.packetLossRate.getText());
 
-				// SDN controller configuration 二
+				// SDN controller configuration 2
 				// Controller Type
 				// CONTROLLER_TYPE_ONOS = 0;
 				// CONTROLLER_TYPE_FLOODLIGHT = 1;
@@ -847,16 +848,16 @@ public class GUI {
 
 		N_comboBoxTestType.setModel(new DefaultComboBoxModel(new String[] { "Throughput", "Latency" }));
 
-		// 关于run按钮的代码
+		// run 버튼에 대한 코드
 		N_startButton = new JButton("Run");
 		N_startButton.setFont(new Font("Times New Roman", Font.PLAIN, 12));
 		N_startButton.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {// 按键之后开始實行下列代碼
+			public void actionPerformed(ActionEvent e) {// 버튼 클릭 후 다음 코드 실행
 
-				N_startButton.setEnabled(false);// run按钮不可按
-				N_metricList.setEnabled(false);// metric 栏不可选择
+				N_startButton.setEnabled(false);// run 버튼 비활성화
+				N_metricList.setEnabled(false);// metric 버튼 비활성화
 
-				// metric index，获得metric的选择值并赋值给global变数
+				// metric index，global 변수에 metric 선택값 부여
 //				Global.TEST_METRIC = N_metricList.getSelectedIndex();
 
 				String selec_metric = N_metricList.getSelectedValue().toString().split("\\.")[1];
@@ -870,10 +871,10 @@ public class GUI {
 				Global.ofVersion = org.projectfloodlight.openflow.protocol.OFVersion.OF_13;
 
 				// -- Benchmark configuration 2
-				// topology type 圆形或者直线
+				// topology type ring or linear
 				Global.topoType = TopologyType.valueOf(N_comboBoxTopoType.getSelectedItem().toString().toUpperCase());
 				// --Benchmark configuration 3
-				// node # node数量
+				// node # node 개수
 				Global.NUMBER_OF_TEST_SWITCH = Integer.parseInt((String) N_numberOfS.getText().toString());
 				Global.NUMBER_OF_TEST_FLOW = Integer.parseInt((String)N_Flow_Number.getText().toString());
 				
@@ -885,22 +886,22 @@ public class GUI {
 				Global.HOST_IP[0] = Integer.parseInt((String) N_hostIP_1.getText().toString());
 				Global.HOST_IP[1] = Integer.parseInt((String) N_hostIP_2.getText().toString());
 
-				// SDN controller configuration 一
+				// SDN controller configuration 1
 				// Controller Mode （Standalone， Cluster）
 //				Global.CONTROLLER_MODE = N_comboBoxControllerMode.getSelectedIndex();
 				Global.conMode = ControllerMode
 						.valueOf(N_comboBoxControllerMode.getSelectedItem().toString().toUpperCase());
 				if (Global.conMode == ControllerMode.STANDALONE) {
-					// standalone mode 完成
-					// SDN controller configuration 三
+					// standalone mode
+					// SDN controller configuration 3
 					StringTokenizer st = new StringTokenizer(N_controller1IpPort.getText().toString(), ":");// 分词器，分离ip和port
 					Global.SDN_CONTROLLER_IP[0] = st.nextToken();
 					Global.SDN_CONTROLLER_PORT = Integer.parseInt(st.nextToken().toString());
 					// Global.NODE_SIZE = 1000;
 					// Global.BUFF_SIZE = 1000000;
 				} else {
-					// cluster mode 未完成
-					// SDN controller configuration 三
+					// cluster mode 미완성
+					// SDN controller configuration 3
 					StringTokenizer st = new StringTokenizer(N_controller1IpPort.getText().toString(), ":");
 					Global.SDN_CONTROLLER_IP[0] = st.nextToken();
 					Global.SDN_CONTROLLER_PORT = Integer.parseInt(st.nextToken().toString());
@@ -908,10 +909,10 @@ public class GUI {
 					// Global.BUFF_SIZE = 40000;
 				}
 
-				// packet loss rate 未完成
+				// packet loss rate 미완성
 				Global.PACKET_LOSS_RATE = Double.parseDouble(cf.packetLossRate.getText());
 
-				// SDN controller configuration 二
+				// SDN controller configuration 2
 				// Controller Type
 				// CONTROLLER_TYPE_ONOS = 0;
 				// CONTROLLER_TYPE_FLOODLIGHT = 1;

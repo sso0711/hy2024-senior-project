@@ -31,10 +31,10 @@ public class TopologyDiscovery {
 
 	private static void version0() {
 		try {
-			// 修改ui的属性
-			Main.gui.S_progressBar.setValue(0);// 进度条
-			Main.gui.S_startButton.setEnabled(false);// run按钮
-			Main.gui.S_metricList.setEnabled(false);// metric选项
+			// UI 속성 수정
+			Main.gui.S_progressBar.setValue(0);// 진척도
+			Main.gui.S_startButton.setEnabled(false);// run 버튼
+			Main.gui.S_metricList.setEnabled(false);// metric 버튼
 
 			Node[] nodes = null;
 
@@ -46,7 +46,7 @@ public class TopologyDiscovery {
 			HAS_STARTED = true;
 			Tasks.HAS_STARTED = true;
 
-			try {// 休息15000
+			try {
 				Thread.sleep(15000);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
@@ -72,7 +72,7 @@ public class TopologyDiscovery {
 					+ BenchmarkTimer.GET_TIME(Result.TOPOLOGY_DISCOVERY_LLDP_OUT, Result.TOPOLOGY_DISCOVERY_LLDP_OUT),
 					TopologyDiscovery.class.getSimpleName());
 
-			// 在gui上面显示结果
+			// GUI에 결과 출력
 			Result.ADD_RESULT(df.format(
 					BenchmarkTimer.GET_TIME(Result.TOPOLOGY_DISCOVERY_LLDP_IN, Result.TOPOLOGY_DISCOVERY_LLDP_OUT)), 0,
 					2);

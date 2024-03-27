@@ -225,14 +225,13 @@ public class N_RunButton {
 		System.out.println("############## what : " + Global.northboundMetric.toString());
 		
 		switch (Global.northboundMetric) {
-		case TOPOLOGY_DISCOVERY_TIME:// 拓扑发现时间
+		case TOPOLOGY_DISCOVERY_TIME:
 
 			Global.TOPOLOGY_DISCOVERY_TEST_NODE_ID = Global.NUMBER_OF_TEST_SWITCH + 1;
 			Global.PROGRESS_MAX_VALUE = 26;
 			Main.gui.S_progressBar.setMaximum(Global.PROGRESS_MAX_VALUE);
 			Main.gui.S_progressBar.setValue(0);
-			Global.TEST_INIT_TIME = System.currentTimeMillis();
-			// 获取现在时间并赋值给global变数
+			Global.TEST_INIT_TIME = System.currentTimeMillis(); // 현재 시간 가져온 후 global 변수에 할당
 
 			pu2.updateStart(1, 1);
 
@@ -258,7 +257,7 @@ public class N_RunButton {
 				// TODO Auto-generated catch block
 				e2.printStackTrace();
 			}
-			// 未完待续
+			// 더 이상 지속되지 않음
 			break;
 		case PROACTIVE_PATH_PROVISIONING_RATE:
 
@@ -278,7 +277,7 @@ public class N_RunButton {
 				// TODO Auto-generated catch block
 				e2.printStackTrace();
 			}
-			// 未完待续
+			// 더 이상 지속되지 않음
 			break;
 		case CONTROL_SESSION_CAPACITY_CCD:
 
