@@ -38,13 +38,13 @@ public class IP {
 		try {
 			socket.connect(new InetSocketAddress(host, port), timeout);
 
-			res = connect.isConnected();
+			res = socket.isConnected();
 
 		} catch (IOException e) {
 //			e.printStackTrace();
 		} finally {
 			try {
-				connect.close();
+				socket.close();
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
