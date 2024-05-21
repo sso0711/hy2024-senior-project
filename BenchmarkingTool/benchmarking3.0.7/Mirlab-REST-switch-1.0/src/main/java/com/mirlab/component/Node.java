@@ -41,6 +41,12 @@ public class Node {
 	private ClientBootstrap bootstrap;
 	long tempTime = 0;
 
+	public Node(long dpid, int nodeId) {
+		this.dpid = dpid;
+		this.nodeId = nodeId;
+
+	}
+
 	public void start_OpenFlowClient() {
 		client = new OpenFlowClient(this, Global.SDN_CONTROLLER_IP[0], Global.SDN_CONTROLLER_PORT);
 		client.start();
@@ -134,12 +140,6 @@ public class Node {
 		this.tables = tables;
 	}
 
-	public Node(long dpid, int nodeId) {// 构造器
-		this.dpid = dpid;
-		this.nodeId = nodeId;
-
-	}
-
 	public int getNodeId() {
 		return nodeId;
 	}
@@ -153,13 +153,12 @@ public class Node {
 			String name = "Eth" + (i + 1);
 			OFPortDesc temp = OpenFlow13_PacketMaker.PORT_DESC(name, i + 1);
 			Port port = new Port(temp, i + 1, this);// Port class，
-													// 在component文件夹下
+													// component 디렉토리 아래
 			portList.add(port);
-
 		}
 	}
 
-	public Port addPort() {// 添加端口
+	public Port addPort() {// 포트 추가
 		String name = "Eth" + (this.portList.size() + 1);
 		OFPortDesc temp = OpenFlow13_PacketMaker.PORT_DESC(name, this.portList.size() + 1);
 

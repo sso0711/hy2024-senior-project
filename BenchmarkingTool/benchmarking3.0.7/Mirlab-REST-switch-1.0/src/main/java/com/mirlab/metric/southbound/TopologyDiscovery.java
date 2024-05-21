@@ -31,23 +31,25 @@ public class TopologyDiscovery {
 
 	private static void version0() {
 		try {
-			// 修改ui的属性
-			Main.gui.S_progressBar.setValue(0);// 进度条
-			Main.gui.S_startButton.setEnabled(false);// run按钮
-			Main.gui.S_metricList.setEnabled(false);// metric选项
+			// UI 속성 수정
+			Main.gui.S_progressBar.setValue(0); // 진척도
+			Main.gui.S_startButton.setEnabled(false);// run 버튼
+			Main.gui.S_metricList.setEnabled(false); // metric 옵션
 
 			Node[] nodes = null;
 
 			CreateTopo ct = new CreateTopo(Global.SWITCH_ID_OFF_SET);
 			nodes = ct.go();
 
-			Thread.sleep(10000);
+			Thread.sleep(10000); // 10s
 
 			HAS_STARTED = true;
 			Tasks.HAS_STARTED = true;
 
-			try {// 休息15000
+			try { // 휴식 15s
+
 				Thread.sleep(15000);
+
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();

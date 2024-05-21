@@ -30,30 +30,27 @@ public class OpenFlowClient {
 
 	public void start() {
 		try {
-			bootstrap.setOption("tcpNoDelay", true);// tcp无延迟
-			bootstrap.setOption("keepAlive", true);// 保持tcp连接
+			bootstrap.setOption("tcpNoDelay", true);
+			bootstrap.setOption("keepAlive", true);// tcp 연결 유지
 			bootstrap.setOption("reuseAddress", true);
-			bootstrap.setOption("connectTimeoutMillis", 1000 * 10);// timeout时间10s
+			bootstrap.setOption("connectTimeoutMillis", 1000 * 10);// timeout 10s
 
-			bootstrap.setPipelineFactory(new PiplineFactory(new BaseHandler(node))); // If you want to cluster mode you make address more , 
+			bootstrap.setPipelineFactory(new PiplineFactory(new BaseHandler(node))); // If you want cluster mode, make more address
 
 			SocketAddress address = new InetSocketAddress(IP, port);
 
 			logger.debug("Connecting to {}.", address);
 
-			channelFuture = bootstrap.connect(address).sync();// netty链接
+			channelFuture = bootstrap.connect(address).sync(); // netty 연결 - controller와 connection 시도
 			channelFuture.awaitUninterruptibly();
 			node.setChannelFuture(channelFuture);
 
-			Global.CHANNEL_POOL.add(channelFuture);// 每一个channelFuture加入到global变数arraylist里面
+			Global.CHANNEL_POOL.add(channelFuture); // channelFuture마다 global 변수인 arrayList에 추가
 
 			if (channelFuture.isSuccess()) {
-
 				node.setBootstrap(bootstrap);
 			} else {
-
 				bootstrap.releaseExternalResources();
-
 				channelFuture.cancel();
 			}
 
@@ -62,9 +59,8 @@ public class OpenFlowClient {
 
 		} finally {
 			if (channelFuture == null) {
-
 				Global.BENCHMARK_NO_BUFF = true;
-				bootstrap.releaseExternalResources();// 解放所有资源
+				bootstrap.releaseExternalResources(); // 모든 자원 release
 			} else {
 
 			}

@@ -50,7 +50,7 @@ public class Port {
 		}
 	}
 
-	// 未完 setconnectedport不知道该怎么办
+	// setConnectedPort를 끝내지 못해서 구현 완성 못함
 	public void addConnectedPortToList(Port port) {
 		if (connectedPortList == null) {
 			this.connectedPortList = new ArrayList<Port>();

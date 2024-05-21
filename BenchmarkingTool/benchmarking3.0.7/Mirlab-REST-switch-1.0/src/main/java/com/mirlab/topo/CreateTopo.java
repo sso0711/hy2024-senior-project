@@ -333,7 +333,7 @@ public class CreateTopo {
 
 		}
 
-		// create link between s and s
+		// create link between switch and switch
 		for (int i = 1; i < Global.NUMBER_OF_TEST_SWITCH; i++) {
 			nodes[i].getPortList().get(0).setConnectedPort(nodes[i - 1].getPortList().get(1));
 
@@ -341,7 +341,7 @@ public class CreateTopo {
 			nodes[i - 1].setNextNode(nodes[i]);
 		}
 
-		// create link between s and h
+		// create link between switch and host
 		for (int n = 0; n < srcHosts.length; n++) {
 			nodes[0].getPortList().get(0).addConnectedHostToList(srcHosts[n]);
 		}
@@ -349,7 +349,7 @@ public class CreateTopo {
 			nodes[nodes.length - 1].getPortList().get(1).addConnectedHostToList(dstHosts[n]);
 		}
 
-		// 最前和最后node赋给global变量
+		// global 변수에 처음과 마지막 노드 부여
 		Global.ROOTNODE = nodes[0];
 		Global.LEAFNODE = nodes[Global.NUMBER_OF_TEST_SWITCH - 1];
 		Global.nodes = nodes;

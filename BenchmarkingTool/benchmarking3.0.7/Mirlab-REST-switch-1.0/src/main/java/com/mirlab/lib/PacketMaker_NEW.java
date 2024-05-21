@@ -25,7 +25,7 @@ import com.mirlab.protocol.Udp;
 public class PacketMaker_NEW {
 
 	public static ArrayList<OFMessage> MAKE_ARP_REPLY_GRATUITOUS_PACKET_NEW() {
-		// 把所有的host的信息发给controller
+		// 모든 host 정보를 controller에게 전송
 		ArrayList<OFMessage> temp = new ArrayList<OFMessage>();
 		OFMessage ofpi = null;
 

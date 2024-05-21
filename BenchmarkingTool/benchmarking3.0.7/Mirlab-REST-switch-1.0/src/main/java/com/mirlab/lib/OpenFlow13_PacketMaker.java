@@ -102,9 +102,10 @@ public class OpenFlow13_PacketMaker {
 	public static OFPortDesc PORT_DESC(String name, int portNo) {
 		Random randomno = new Random();
 
-		OFPortDesc ofpd = factory.buildPortDesc().setName(name).setPortNo(OFPort.of(portNo))
-				.setHwAddr(MacAddress.of(randomno.nextLong()))// 返回下一个伪随机数，它是取自此随机数生成器序列的均匀分布的
-																// long 值。
+		OFPortDesc ofpd = factory.buildPortDesc() // builder
+				.setName(name)
+				.setPortNo(OFPort.of(portNo))
+				.setHwAddr(MacAddress.of(randomno.nextLong()))// random value -> type: long
 				.setCurr(EnumSet.<OFPortFeatures>of(OFPortFeatures.PF_10GB_FD, OFPortFeatures.PF_COPPER))
 				.setCurrSpeed((long) 10000000).build();
 

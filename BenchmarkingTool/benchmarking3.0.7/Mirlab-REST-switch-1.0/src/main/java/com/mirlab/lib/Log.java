@@ -23,7 +23,6 @@ public class Log {
 		Date date = new Date();
 		Main.gui.S_LOG_TEXT.append("[" + date.toString() + "] " + "[" + classInfo + "]: " + str + "\n");
 		Main.gui.S_LOG_TEXT.setCaretPosition(Main.gui.S_LOG_TEXT.getText().length());
-
 	}
 	
 	public static void N_ADD_LOG_PANEL(String str, String classInfo) {

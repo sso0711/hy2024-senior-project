@@ -32,11 +32,11 @@ public class IP {
 	}
 
 	public static boolean isHostConnectable(String host, int port, int timeout) {
-		Socket connect = new Socket();
+		Socket socket = new Socket();
 
 		boolean res = false;
 		try {
-			connect.connect(new InetSocketAddress(host, port), timeout);
+			socket.connect(new InetSocketAddress(host, port), timeout);
 
 			res = connect.isConnected();
 
@@ -50,7 +50,6 @@ public class IP {
 			}
 		}
 		return res;
-
 	}
 
 	public static String getLocalHostIP() throws UnknownHostException {

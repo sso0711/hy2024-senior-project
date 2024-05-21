@@ -53,7 +53,7 @@ public class BaseHandler extends IdleStateAwareChannelHandler {
 		OFMessage ofMessage = (OFMessage) event.getMessage();
 		switch (ofMessage.getType()) {
 		case HELLO:
-			// 收到来自controller的hello mmessage之后
+			// controller로부터 HELLO message 받은 후
 			logger.debug("Hello message Received.");
 			PacketHandler.HANDEL_HELLO_OUT_PACKET(ctx, ofMessage, node);
 			break;
