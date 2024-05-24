@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.lixisha.mirlab.mirlab_switch.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-24T08:17:58" hostname="DESKTOP-UHRKIC0" time="0.002">
+  <properties/>
+  <testcase name="testApp" classname="com.lixisha.mirlab.mirlab_switch.AppTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
