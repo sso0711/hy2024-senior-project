@@ -184,23 +184,23 @@ public class GUI {
 		menuBar.setToolTipText("");
 
 		JMenu fileMB = new JMenu("File");
-		fileMB.setIcon(new ImageIcon(GUI.class.getResource("/com/alee/examples/groups/filechooser/icons/folder.png")));
+		//fileMB.setIcon(new ImageIcon(GUI.class.getResource("/com/alee/examples/groups/filechooser/icons/folder.png")));
 		menuBar.add(fileMB);
 
 		JMenuItem newMI = new JMenuItem("New");
-		newMI.setIcon(new ImageIcon(GUI.class.getResource("/com/alee/extended/filechooser/icons/file_icon.png")));
+		//newMI.setIcon(new ImageIcon(GUI.class.getResource("/com/alee/extended/filechooser/icons/file_icon.png")));
 		fileMB.add(newMI);
 
 		JMenuItem openMI = new JMenuItem("Open");
-		openMI.setIcon(new ImageIcon(GUI.class.getResource("/com/alee/extended/ninepatch/icons/open.png")));
+		//openMI.setIcon(new ImageIcon(GUI.class.getResource("/com/alee/extended/ninepatch/icons/open.png")));
 		fileMB.add(openMI);
 
 		JMenuItem saveMI = new JMenuItem("Save As...");
-		saveMI.setIcon(new ImageIcon(GUI.class.getResource("/com/alee/extended/ninepatch/icons/saveas.png")));
+		//saveMI.setIcon(new ImageIcon(GUI.class.getResource("/com/alee/extended/ninepatch/icons/saveas.png")));
 		fileMB.add(saveMI);
 
 		JMenu windowMB = new JMenu("Configuration");
-		windowMB.setIcon(new ImageIcon(GUI.class.getResource("/com/alee/examples/groups/window/icons/window.png")));
+		//windowMB.setIcon(new ImageIcon(GUI.class.getResource("/com/alee/examples/groups/window/icons/window.png")));
 		menuBar.add(windowMB);
 
 		JMenuItem reportWindowMI = new JMenuItem("Distributed Benchmark");
@@ -221,9 +221,9 @@ public class GUI {
 
 			}
 		});
-		mntmConfiguration.setIcon(new ImageIcon(GUI.class.getResource("/com/alee/utils/icons/selection/gripper.png")));
+		//mntmConfiguration.setIcon(new ImageIcon(GUI.class.getResource("/com/alee/utils/icons/selection/gripper.png")));
 		windowMB.add(mntmConfiguration);
-		reportWindowMI.setIcon(new ImageIcon(GUI.class.getResource("/com/alee/examples/groups/table/icons/table.png")));
+		//reportWindowMI.setIcon(new ImageIcon(GUI.class.getResource("/com/alee/examples/groups/table/icons/table.png")));
 		windowMB.add(reportWindowMI);
 
 		// by Joon .. judged in line 145
@@ -258,16 +258,15 @@ public class GUI {
 			}
 		});
 
-		OpenTopology.setIcon(new ImageIcon(GUI.class.getResource("/com/alee/utils/icons/selection/gripper.png")));
+		//OpenTopology.setIcon(new ImageIcon(GUI.class.getResource("/com/alee/utils/icons/selection/gripper.png")));
 		windowMB.add(OpenTopology);
-		reportWindowMI.setIcon(new ImageIcon(GUI.class.getResource("/com/alee/examples/groups/table/icons/table.png")));
+		//reportWindowMI.setIcon(new ImageIcon(GUI.class.getResource("/com/alee/examples/groups/table/icons/table.png")));
 		windowMB.add(OpenTopology);
 
 		// this is for opening the saved mininet topology
 
 		JMenu helpMB = new JMenu("Help");
-		helpMB.setIcon(
-				new ImageIcon(GUI.class.getResource("/com/alee/examples/groups/transition/icons/toolbar/2.png")));
+		//helpMB.setIcon(new ImageIcon(GUI.class.getResource("/com/alee/examples/groups/transition/icons/toolbar/2.png")));
 		menuBar.add(helpMB);
 
 		JMenuItem aboutMI = new JMenuItem("About");
@@ -278,7 +277,7 @@ public class GUI {
 			}
 		});
 
-		aboutMI.setIcon(new ImageIcon(GUI.class.getResource("/com/alee/extended/ninepatch/icons/icon.png")));
+		//aboutMI.setIcon(new ImageIcon(GUI.class.getResource("/com/alee/extended/ninepatch/icons/icon.png")));
 		helpMB.add(aboutMI);
 
 		JTabbedPane tabbedPane_1 = new JTabbedPane(JTabbedPane.TOP);
@@ -485,8 +484,8 @@ public class GUI {
 		S_tabbedPane.setBounds(41, 344, 992, 310);
 		southbound.add(S_tabbedPane);
 		JScrollPane scrollPane_3 = new JScrollPane();
-		S_tabbedPane.addTab("Result",
-				new ImageIcon(GUI.class.getResource("/com/alee/managers/style/icons/component/tableHeader.png")),
+		S_tabbedPane.addTab("Result", null,
+				//new ImageIcon(GUI.class.getResource("/com/alee/managers/style/icons/component/tableHeader.png")),
 				scrollPane_3, null);
 
 		S_RESULT_TABLE = new JTable();
@@ -524,29 +523,27 @@ public class GUI {
 		S_TOPO_TEXT.setMargin(new Insets(20, 10, 20, 10));
 		S_TOPO_TEXT.setLineWrap(true);
 
-		S_tabbedPane.addTab("Log",
-				new ImageIcon(GUI.class.getResource("/com/alee/examples/groups/menubar/icons/menubar/edit.png")),
+		S_tabbedPane.addTab("Log", null,
+				//new ImageIcon(GUI.class.getResource("/com/alee/examples/groups/menubar/icons/menubar/edit.png")),
 				new JScrollPane(S_LOG_TEXT), null);
 
 		S_TOPOLOGY_TEXT = new JTextArea();
 		S_TOPOLOGY_TEXT.setMargin(new Insets(20, 10, 20, 10));
 		S_TOPOLOGY_TEXT.setLineWrap(true);
 
-		S_tabbedPane.addTab("Topology",
-				new ImageIcon(GUI.class.getResource("/com/alee/examples/content/icons/presentation.png")),
+		S_tabbedPane.addTab("Topology", null,
+				//new ImageIcon(GUI.class.getResource("/com/alee/examples/content/icons/presentation.png")),
 				new JScrollPane(S_TOPO_TEXT), null);
 
 		JLabel lblNewLabel = new JLabel("Metrics");
-		lblNewLabel.setIcon(
-				new ImageIcon(GUI.class.getResource("/com/alee/examples/groups/menubar/icons/menubar/radio1.png")));
+		//lblNewLabel.setIcon(new ImageIcon(GUI.class.getResource("/com/alee/examples/groups/menubar/icons/menubar/radio1.png")));
 		lblNewLabel.setFont(new Font("Times New Roman", Font.BOLD, 12));
 		lblNewLabel.setBounds(41, 10, 93, 15);
 		southbound.add(lblNewLabel);
 
 		JLabel lblNewLabel_1 = new JLabel("Benchmark Configuration");
 		lblNewLabel_1.setFont(new Font("Times New Roman", Font.BOLD, 12));
-		lblNewLabel_1
-				.setIcon(new ImageIcon(GUI.class.getResource("/com/alee/extended/filechooser/icons/settings.png")));
+		//lblNewLabel_1.setIcon(new ImageIcon(GUI.class.getResource("/com/alee/extended/filechooser/icons/settings.png")));
 		lblNewLabel_1.setBounds(309, 10, 170, 15);
 		southbound.add(lblNewLabel_1);
 
@@ -655,7 +652,7 @@ public class GUI {
 		lblControllerType.setFont(new Font("Times New Roman", Font.PLAIN, 12));
 
 		JLabel lblNewLabel_2 = new JLabel("SDN Controller Configuration");
-		lblNewLabel_2.setIcon(new ImageIcon(GUI.class.getResource("/com/alee/laf/filechooser/icons/computer.png")));
+		//lblNewLabel_2.setIcon(new ImageIcon(GUI.class.getResource("/com/alee/laf/filechooser/icons/computer.png")));
 		lblNewLabel_2.setFont(new Font("Times New Roman", Font.BOLD, 12));
 		lblNewLabel_2.setBounds(309, 142, 204, 15);
 		southbound.add(lblNewLabel_2);
@@ -1039,8 +1036,8 @@ public class GUI {
 		N_tabbedPane.setBounds(41, 344, 992, 310);
 		northbound.add(N_tabbedPane);
 		JScrollPane scrollPane_3 = new JScrollPane();
-		N_tabbedPane.addTab("Result",
-				new ImageIcon(GUI.class.getResource("/com/alee/managers/style/icons/component/tableHeader.png")),
+		N_tabbedPane.addTab("Result", null,
+				//new ImageIcon(GUI.class.getResource("/com/alee/managers/style/icons/component/tableHeader.png")),
 				scrollPane_3, null);
 
 		N_RESULT_TABLE = new JTable();
@@ -1080,29 +1077,27 @@ public class GUI {
 		N_TOPO_TEXT.setMargin(new Insets(20, 10, 20, 10));
 		N_TOPO_TEXT.setLineWrap(true);
 
-		N_tabbedPane.addTab("Log",
-				new ImageIcon(GUI.class.getResource("/com/alee/examples/groups/menubar/icons/menubar/edit.png")),
+		N_tabbedPane.addTab("Log", null,
+				//new ImageIcon(GUI.class.getResource("/com/alee/examples/groups/menubar/icons/menubar/edit.png")),
 				new JScrollPane(N_LOG_TEXT), null);
 
 		N_TOPOLOGY_TEXT = new JTextArea();
 		N_TOPOLOGY_TEXT.setMargin(new Insets(20, 10, 20, 10));
 		N_TOPOLOGY_TEXT.setLineWrap(true);
 
-		N_tabbedPane.addTab("Topology",
-				new ImageIcon(GUI.class.getResource("/com/alee/examples/content/icons/presentation.png")),
+		N_tabbedPane.addTab("Topology", null,
+				//new ImageIcon(GUI.class.getResource("/com/alee/examples/content/icons/presentation.png")),
 				new JScrollPane(N_TOPO_TEXT), null);
 
 		JLabel lblNewLabel = new JLabel("Metrics");
-		lblNewLabel.setIcon(
-				new ImageIcon(GUI.class.getResource("/com/alee/examples/groups/menubar/icons/menubar/radio1.png")));
+		//lblNewLabel.setIcon(new ImageIcon(GUI.class.getResource("/com/alee/examples/groups/menubar/icons/menubar/radio1.png")));
 		lblNewLabel.setFont(new Font("Times New Roman", Font.BOLD, 12));
 		lblNewLabel.setBounds(41, 10, 93, 15);
 		northbound.add(lblNewLabel);
 
 		JLabel lblNewLabel_1 = new JLabel("Benchmark Configuration");
 		lblNewLabel_1.setFont(new Font("Times New Roman", Font.BOLD, 12));
-		lblNewLabel_1
-				.setIcon(new ImageIcon(GUI.class.getResource("/com/alee/extended/filechooser/icons/settings.png")));
+		//lblNewLabel_1.setIcon(new ImageIcon(GUI.class.getResource("/com/alee/extended/filechooser/icons/settings.png")));
 		lblNewLabel_1.setBounds(309, 10, 170, 15);
 		northbound.add(lblNewLabel_1);
 
@@ -1186,7 +1181,7 @@ public class GUI {
 		lblControllerType.setFont(new Font("Times New Roman", Font.PLAIN, 12));
 
 		JLabel lblNewLabel_2 = new JLabel("SDN Controller Configuration");
-		lblNewLabel_2.setIcon(new ImageIcon(GUI.class.getResource("/com/alee/laf/filechooser/icons/computer.png")));
+		//lblNewLabel_2.setIcon(new ImageIcon(GUI.class.getResource("/com/alee/laf/filechooser/icons/computer.png")));
 		lblNewLabel_2.setFont(new Font("Times New Roman", Font.BOLD, 12));
 		lblNewLabel_2.setBounds(309, 169, 204, 15);
 		northbound.add(lblNewLabel_2);
@@ -1542,8 +1537,8 @@ public class GUI {
 		SN_tabbedPane.setBounds(41, 344, 992, 310);
 		snbound.add(SN_tabbedPane);
 		JScrollPane scrollPane_3 = new JScrollPane();
-		SN_tabbedPane.addTab("Result",
-				new ImageIcon(GUI.class.getResource("/com/alee/managers/style/icons/component/tableHeader.png")),
+		SN_tabbedPane.addTab("Result", null,
+				//new ImageIcon(GUI.class.getResource("/com/alee/managers/style/icons/component/tableHeader.png")),
 				scrollPane_3, null);
 
 		SN_RESULT_TABLE = new JTable();
@@ -1585,29 +1580,27 @@ public class GUI {
 		SN_TOPO_TEXT.setMargin(new Insets(20, 10, 20, 10));
 		SN_TOPO_TEXT.setLineWrap(true);
 
-		SN_tabbedPane.addTab("Log",
-				new ImageIcon(GUI.class.getResource("/com/alee/examples/groups/menubar/icons/menubar/edit.png")),
+		SN_tabbedPane.addTab("Log", null,
+				//new ImageIcon(GUI.class.getResource("/com/alee/examples/groups/menubar/icons/menubar/edit.png")),
 				new JScrollPane(SN_LOG_TEXT), null);
 
 		SN_TOPOLOGY_TEXT = new JTextArea();
 		SN_TOPOLOGY_TEXT.setMargin(new Insets(20, 10, 20, 10));
 		SN_TOPOLOGY_TEXT.setLineWrap(true);
 
-		SN_tabbedPane.addTab("Topology",
-				new ImageIcon(GUI.class.getResource("/com/alee/examples/content/icons/presentation.png")),
+		SN_tabbedPane.addTab("Topology", null,
+				//new ImageIcon(GUI.class.getResource("/com/alee/examples/content/icons/presentation.png")),
 				new JScrollPane(SN_TOPO_TEXT), null);
 
 		JLabel lblNewLabel = new JLabel("Metrics");
-		lblNewLabel.setIcon(
-				new ImageIcon(GUI.class.getResource("/com/alee/examples/groups/menubar/icons/menubar/radio1.png")));
+		//lblNewLabel.setIcon(new ImageIcon(GUI.class.getResource("/com/alee/examples/groups/menubar/icons/menubar/radio1.png")));
 		lblNewLabel.setFont(new Font("Times New Roman", Font.BOLD, 12));
 		lblNewLabel.setBounds(41, 10, 93, 15);
 		snbound.add(lblNewLabel);
 
 		JLabel lblNewLabel_1 = new JLabel("Benchmark Configuration");
 		lblNewLabel_1.setFont(new Font("Times New Roman", Font.BOLD, 12));
-		lblNewLabel_1
-				.setIcon(new ImageIcon(GUI.class.getResource("/com/alee/extended/filechooser/icons/settings.png")));
+		//lblNewLabel_1.setIcon(new ImageIcon(GUI.class.getResource("/com/alee/extended/filechooser/icons/settings.png")));
 		lblNewLabel_1.setBounds(309, 10, 170, 15);
 		snbound.add(lblNewLabel_1);
 
@@ -1716,7 +1709,7 @@ public class GUI {
 		lblControllerType.setFont(new Font("Times New Roman", Font.PLAIN, 12));
 
 		JLabel lblNewLabel_2 = new JLabel("SDN Controller Configuration");
-		lblNewLabel_2.setIcon(new ImageIcon(GUI.class.getResource("/com/alee/laf/filechooser/icons/computer.png")));
+		//lblNewLabel_2.setIcon(new ImageIcon(GUI.class.getResource("/com/alee/laf/filechooser/icons/computer.png")));
 		lblNewLabel_2.setFont(new Font("Times New Roman", Font.BOLD, 12));
 		lblNewLabel_2.setBounds(316, 165, 204, 15);
 		snbound.add(lblNewLabel_2);
