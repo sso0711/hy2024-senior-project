@@ -1,5 +1,0 @@
-2017-12-21_14-46/AsynchronousMessageProcessingRate/Linear/2/740.976887193017
-2018-12-10_19-10/AsynchronousMessageProcessingRate/Linear/2/592.1181462143
-2018-12-11_23-24/AsynchronousMessageProcessingRate/Linear/11/543.6066342491995
-2018-12-12_10-16/AsynchronousMessageProcessingRate/Linear/11/351.3268539206678
-2018-12-13_17-33/AsynchronousMessageProcessingRate/Linear/11/513.2741587495245
