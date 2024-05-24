@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="config"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="jgoodies-forms-1.8.0.jar" sourcepath="jgoodies-forms-1.8.0-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="miglayout15-swing.jar" sourcepath="miglayout-src.zip"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/3"/>
+	<classpathentry kind="lib" path="async-http-client-1.6.2.jar"/>
+	<classpathentry kind="lib" path="commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="fluent-hc-4.5.3.jar"/>
+	<classpathentry kind="lib" path="httpasyncclient-4.1.jar"/>
+	<classpathentry kind="lib" path="httpclient-4.5.3.jar"/>
+	<classpathentry kind="lib" path="httpclient-cache-4.5.3.jar"/>
+	<classpathentry kind="lib" path="httpclient-win-4.5.3.jar"/>
+	<classpathentry kind="lib" path="httpcore-4.4.6.jar"/>
+	<classpathentry kind="lib" path="httpcore-nio-4.3.2.jar"/>
+	<classpathentry kind="lib" path="httpmime-4.5.3.jar"/>
+	<classpathentry kind="lib" path="jgoodies-forms-1.8.0-sources.jar"/>
+	<classpathentry kind="lib" path="jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="miglayout-src.zip"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

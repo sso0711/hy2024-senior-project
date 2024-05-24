@@ -1,0 +1,38 @@
+***************SDN Controller Information***************
+
+Controller Mode: STANDALONE
+
+Controller Type: ONOS
+
+Ip/Port: 192.168.1.114:6633
+
+*****************Benchmark  Information*****************
+
+OpenFlow Version: Openflow 1.3 
+
+Topology Type: Linear
+
+Number of Switch: 11 
+
+Number of Host per Switch: 100 
+
+Test Time: 5s 
+
+Bulk size start from: 1
+
+The packet loss threshoud : 5.0%
+
+Asynchronous Message Type: TCP
+
+Reactive Path Provisioning Packet Type: TCP
+
+*******************************************************
+
+[Mon Dec 10 22:47:37 KST 2018] [class com.Main]: "REACTIVE_PATH_PROVISIONING_TIME" Test Start... 
+
+[Mon Dec 10 22:48:04 KST 2018] [class com.mirlab.lib.Initializer]: Sending ARP(Gratuitous) Completed.
+[Mon Dec 10 22:48:14 KST 2018] [class com.mirlab.metric.southbound.ReactivePathProvisioningTime]: 322
+[Mon Dec 10 22:48:14 KST 2018] [ReactivePathProvisioningTime]: size of in: 322
+[Mon Dec 10 22:48:14 KST 2018] [ReactivePathProvisioningTime]: size of out: 322
+[Mon Dec 10 22:48:14 KST 2018] [ReactivePathProvisioningTime]: Average processing time : 6.19637 ms
+[Mon Dec 10 22:48:14 KST 2018] [ReactivePathProvisioningTime]: Test Completed!

@@ -1,0 +1,39 @@
+***************SDN Controller Information***************
+
+Controller Mode: STANDALONE
+
+Controller Type: ONOS
+
+Ip/Port: 192.168.1.11:6653
+
+*****************Benchmark  Information*****************
+
+OpenFlow Version: Openflow 1.3 
+
+Topology Type: Linear
+
+Number of Switch: 1 
+
+Number of Host per Switch: 100 
+
+Test Time: 5s 
+
+Bulk size start from: 1
+
+The packet loss threshoud : 5.0%
+
+Asynchronous Message Type: TCP
+
+Reactive Path Provisioning Packet Type: TCP
+
+*******************************************************
+
+[Mon Jun 24 16:06:33 KST 2019] [class com.Main]: "REACTIVE_PATH_PROVISIONING_RATE" Test Start... 
+
+[Mon Jun 24 16:06:33 KST 2019] [class com.mirlab.metric.southbound.ReactivePathProvisioningRate]: Start to find optimizational Bulk Size. Bulk Size Start from:1
+[Mon Jun 24 16:06:33 KST 2019] [ReactivePathProvisioningRate]: *********************************************
+[Mon Jun 24 16:06:33 KST 2019] [ReactivePathProvisioningRate]: Current bulk size = 1
+[Mon Jun 24 16:06:33 KST 2019] [ReactivePathProvisioningRate]: Inter-arrival Time = 1.00000
+[Mon Jun 24 16:06:33 KST 2019] [ReactivePathProvisioningRate]: Duration Time = 5
+[Mon Jun 24 16:07:18 KST 2019] [ReactivePathProvisioningRate]: Sending ARP(Gratuitous) Completed.
+[Mon Jun 24 16:07:45 KST 2019] [ReactivePathProvisioningRate]: Error! Please Check Reactive Module of SDN Controller or change packet type!!

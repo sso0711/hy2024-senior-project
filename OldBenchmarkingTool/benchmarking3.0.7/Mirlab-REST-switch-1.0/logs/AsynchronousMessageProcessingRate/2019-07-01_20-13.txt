@@ -1,0 +1,173 @@
+***************SDN Controller Information***************
+
+Controller Mode: STANDALONE
+
+Controller Type: ONOS
+
+Ip/Port: 192.168.1.11:6633
+
+*****************Benchmark  Information*****************
+
+OpenFlow Version: Openflow 1.3 
+
+Topology Type: Linear
+
+Number of Switch: 1 
+
+Number of Host per Switch: 100 
+
+Test Time: 5s 
+
+Bulk size start from: 1
+
+The packet loss threshoud : 5.0%
+
+Asynchronous Message Type: TCP
+
+Reactive Path Provisioning Packet Type: TCP
+
+*******************************************************
+
+[Mon Jul 01 20:10:45 KST 2019] [class com.Main]: "ASYNCHRONOUS_MESSAGE_PROCESSING_RATE" Test Start... 
+
+[Mon Jul 01 20:10:45 KST 2019] [AsynchronousMessageProcessingRate]: *********************************************
+[Mon Jul 01 20:10:45 KST 2019] [AsynchronousMessageProcessingRate]: Current bulk size = 1
+[Mon Jul 01 20:10:45 KST 2019] [AsynchronousMessageProcessingRate]: Inter-arrival Time = 1.00000
+[Mon Jul 01 20:10:45 KST 2019] [AsynchronousMessageProcessingRate]: Duration Time = 5
+[Mon Jul 01 20:11:05 KST 2019] [AsynchronousMessageProcessingRate]: Final max Sample Size: 670
+[Mon Jul 01 20:11:05 KST 2019] [class com.mirlab.metric.southbound.AsynchronousMessageProcessingRate]: Packet In: 4717
+[Mon Jul 01 20:11:05 KST 2019] [class com.mirlab.metric.southbound.AsynchronousMessageProcessingRate]: Packet Out: 4529
+[Mon Jul 01 20:11:05 KST 2019] [class com.mirlab.metric.southbound.AsynchronousMessageProcessingRate]: Packet Loss Rate: 0.03986
+[Mon Jul 01 20:11:05 KST 2019] [class com.mirlab.metric.southbound.AsynchronousMessageProcessingRate]: Packet Loss Rate < 5.0%, Restart to find Optimizational Result.. 
+[Mon Jul 01 20:11:05 KST 2019] [AsynchronousMessageProcessingRate]: *********************************************
+[Mon Jul 01 20:11:05 KST 2019] [AsynchronousMessageProcessingRate]: Current bulk size = 2
+[Mon Jul 01 20:11:05 KST 2019] [AsynchronousMessageProcessingRate]: Inter-arrival Time = 1.00000
+[Mon Jul 01 20:11:05 KST 2019] [AsynchronousMessageProcessingRate]: Duration Time = 5
+[Mon Jul 01 20:11:25 KST 2019] [AsynchronousMessageProcessingRate]: Final max Sample Size: 827
+[Mon Jul 01 20:11:25 KST 2019] [class com.mirlab.metric.southbound.AsynchronousMessageProcessingRate]: Packet In: 9442
+[Mon Jul 01 20:11:25 KST 2019] [class com.mirlab.metric.southbound.AsynchronousMessageProcessingRate]: Packet Out: 4804
+[Mon Jul 01 20:11:25 KST 2019] [class com.mirlab.metric.southbound.AsynchronousMessageProcessingRate]: Packet Loss Rate: 0.49121
+[Mon Jul 01 20:11:25 KST 2019] [class com.mirlab.metric.southbound.AsynchronousMessageProcessingRate]: Packet Loss Rate > 5.0%, Restart to find Optimizational Result.. 
+[Mon Jul 01 20:11:25 KST 2019] [AsynchronousMessageProcessingRate]: *********************************************
+[Mon Jul 01 20:11:25 KST 2019] [AsynchronousMessageProcessingRate]: Current bulk size = 2
+[Mon Jul 01 20:11:25 KST 2019] [AsynchronousMessageProcessingRate]: Inter-arrival Time = 1.10000
+[Mon Jul 01 20:11:25 KST 2019] [AsynchronousMessageProcessingRate]: Duration Time = 5
+[Mon Jul 01 20:11:46 KST 2019] [AsynchronousMessageProcessingRate]: Final max Sample Size: 678
+[Mon Jul 01 20:11:46 KST 2019] [class com.mirlab.metric.southbound.AsynchronousMessageProcessingRate]: Packet In: 9420
+[Mon Jul 01 20:11:46 KST 2019] [class com.mirlab.metric.southbound.AsynchronousMessageProcessingRate]: Packet Out: 4675
+[Mon Jul 01 20:11:46 KST 2019] [class com.mirlab.metric.southbound.AsynchronousMessageProcessingRate]: Packet Loss Rate: 0.50372
+[Mon Jul 01 20:11:46 KST 2019] [class com.mirlab.metric.southbound.AsynchronousMessageProcessingRate]: Packet Loss Rate > 5.0%, Restart to find Optimizational Result.. 
+[Mon Jul 01 20:11:46 KST 2019] [AsynchronousMessageProcessingRate]: *********************************************
+[Mon Jul 01 20:11:46 KST 2019] [AsynchronousMessageProcessingRate]: Current bulk size = 2
+[Mon Jul 01 20:11:46 KST 2019] [AsynchronousMessageProcessingRate]: Inter-arrival Time = 1.20000
+[Mon Jul 01 20:11:46 KST 2019] [AsynchronousMessageProcessingRate]: Duration Time = 5
+[Mon Jul 01 20:12:06 KST 2019] [AsynchronousMessageProcessingRate]: Final max Sample Size: 827
+[Mon Jul 01 20:12:06 KST 2019] [class com.mirlab.metric.southbound.AsynchronousMessageProcessingRate]: Packet In: 9452
+[Mon Jul 01 20:12:06 KST 2019] [class com.mirlab.metric.southbound.AsynchronousMessageProcessingRate]: Packet Out: 5301
+[Mon Jul 01 20:12:06 KST 2019] [class com.mirlab.metric.southbound.AsynchronousMessageProcessingRate]: Packet Loss Rate: 0.43917
+[Mon Jul 01 20:12:06 KST 2019] [class com.mirlab.metric.southbound.AsynchronousMessageProcessingRate]: Packet Loss Rate > 5.0%, Restart to find Optimizational Result.. 
+[Mon Jul 01 20:12:06 KST 2019] [AsynchronousMessageProcessingRate]: *********************************************
+[Mon Jul 01 20:12:06 KST 2019] [AsynchronousMessageProcessingRate]: Current bulk size = 2
+[Mon Jul 01 20:12:06 KST 2019] [AsynchronousMessageProcessingRate]: Inter-arrival Time = 1.30000
+[Mon Jul 01 20:12:06 KST 2019] [AsynchronousMessageProcessingRate]: Duration Time = 5
+[Mon Jul 01 20:12:26 KST 2019] [AsynchronousMessageProcessingRate]: Final max Sample Size: 872
+[Mon Jul 01 20:12:26 KST 2019] [class com.mirlab.metric.southbound.AsynchronousMessageProcessingRate]: Packet In: 9412
+[Mon Jul 01 20:12:26 KST 2019] [class com.mirlab.metric.southbound.AsynchronousMessageProcessingRate]: Packet Out: 4457
+[Mon Jul 01 20:12:26 KST 2019] [class com.mirlab.metric.southbound.AsynchronousMessageProcessingRate]: Packet Loss Rate: 0.52646
+[Mon Jul 01 20:12:26 KST 2019] [class com.mirlab.metric.southbound.AsynchronousMessageProcessingRate]: Packet Loss Rate > 5.0%, Restart to find Optimizational Result.. 
+[Mon Jul 01 20:12:26 KST 2019] [AsynchronousMessageProcessingRate]: *********************************************
+[Mon Jul 01 20:12:26 KST 2019] [AsynchronousMessageProcessingRate]: Current bulk size = 2
+[Mon Jul 01 20:12:26 KST 2019] [AsynchronousMessageProcessingRate]: Inter-arrival Time = 1.40000
+[Mon Jul 01 20:12:26 KST 2019] [AsynchronousMessageProcessingRate]: Duration Time = 5
+[Mon Jul 01 20:12:46 KST 2019] [AsynchronousMessageProcessingRate]: Final max Sample Size: 1046
+[Mon Jul 01 20:12:46 KST 2019] [class com.mirlab.metric.southbound.AsynchronousMessageProcessingRate]: Packet In: 9428
+[Mon Jul 01 20:12:46 KST 2019] [class com.mirlab.metric.southbound.AsynchronousMessageProcessingRate]: Packet Out: 4603
+[Mon Jul 01 20:12:46 KST 2019] [class com.mirlab.metric.southbound.AsynchronousMessageProcessingRate]: Packet Loss Rate: 0.51177
+[Mon Jul 01 20:12:46 KST 2019] [class com.mirlab.metric.southbound.AsynchronousMessageProcessingRate]: Packet Loss Rate > 5.0%, Restart to find Optimizational Result.. 
+[Mon Jul 01 20:12:46 KST 2019] [AsynchronousMessageProcessingRate]: *********************************************
+[Mon Jul 01 20:12:46 KST 2019] [AsynchronousMessageProcessingRate]: Current bulk size = 2
+[Mon Jul 01 20:12:46 KST 2019] [AsynchronousMessageProcessingRate]: Inter-arrival Time = 1.50000
+[Mon Jul 01 20:12:46 KST 2019] [AsynchronousMessageProcessingRate]: Duration Time = 5
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Final max Sample Size: 989
+[Mon Jul 01 20:13:06 KST 2019] [class com.mirlab.metric.southbound.AsynchronousMessageProcessingRate]: Packet In: 4708
+[Mon Jul 01 20:13:06 KST 2019] [class com.mirlab.metric.southbound.AsynchronousMessageProcessingRate]: Packet Out: 4533
+[Mon Jul 01 20:13:06 KST 2019] [class com.mirlab.metric.southbound.AsynchronousMessageProcessingRate]: Packet Loss Rate: 0.03717
+[Mon Jul 01 20:13:06 KST 2019] [class com.mirlab.metric.southbound.AsynchronousMessageProcessingRate]: Packet Loss Rate < 5.0%, This is the rate 
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: ----------------detail--------------------
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Total Packet Size: 4533
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: ------------------------------------------
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Sample packet 0 size : 369
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: ------------------------------------------
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Cost Time : 0.43879591
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Rate : 369 / 0.43879591 = 840.93765numbers/s
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: ------------------------------------------
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Sample packet 1 size : 0
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Sample packet 2 size : 20
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Sample packet 3 size : 15
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Sample packet 4 size : 16
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Sample packet 5 size : 783
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: ------------------------------------------
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Cost Time : 0.864955185
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Rate : 783 / 0.864955185 = 905.24921numbers/s
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: ------------------------------------------
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Sample packet 6 size : 0
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Sample packet 7 size : 15
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Sample packet 8 size : 16
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Sample packet 9 size : 0
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Sample packet 10 size : 14
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Sample packet 11 size : 205
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: ------------------------------------------
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Cost Time : 0.234525667
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Rate : 205 / 0.234525667 = 874.10475numbers/s
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: ------------------------------------------
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Sample packet 12 size : 68
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Sample packet 13 size : 22
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Sample packet 14 size : 381
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: ------------------------------------------
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Cost Time : 0.45131439
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Rate : 381 / 0.45131439 = 844.20087numbers/s
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: ------------------------------------------
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Sample packet 15 size : 21
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Sample packet 16 size : 17
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Sample packet 17 size : 15
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Sample packet 18 size : 0
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Sample packet 19 size : 27
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Sample packet 20 size : 989
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: ------------------------------------------
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Cost Time : 0.860075502
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Rate : 989 / 0.860075502 = 1149.89905numbers/s
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: ------------------------------------------
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Sample packet 21 size : 16
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Sample packet 22 size : 15
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Sample packet 23 size : 15
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Sample packet 24 size : 396
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: ------------------------------------------
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Cost Time : 0.444521269
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Rate : 396 / 0.444521269 = 890.84601numbers/s
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: ------------------------------------------
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Sample packet 25 size : 433
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: ------------------------------------------
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Cost Time : 0.382881394
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Rate : 433 / 0.382881394 = 1130.89852numbers/s
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: ------------------------------------------
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Sample packet 26 size : 20
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Sample packet 27 size : 18
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Sample packet 28 size : 18
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Sample packet 29 size : 579
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Cost Time : 0.466210899
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Rate : 579 / 0.466210899 = 1241.92721numbers/s
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: ------------------------------------------
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: ------------------------------------------
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Total PacketOut Size : 4533
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Cost Time : 5.044840139
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Total Average Rate : 4533 / 5.044840139 = 898.54185numbers/s
+
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Total PacketOut Sample Size : 4135
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Cost Time : 4.143280216
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Sample Average Rate : 4135 / 4.143280216 = 998.00153numbers/s
+
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: PacketOut largest Sample Size : 989
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Cost Time : 0.860075502
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: Largest Sample Rate : 989 / 0.860075502 = 1149.89905numbers/s
+
+[Mon Jul 01 20:13:06 KST 2019] [AsynchronousMessageProcessingRate]: MAX Sample Rate : 1241.92721numbers/s

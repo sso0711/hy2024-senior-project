@@ -1,0 +1,37 @@
+***************SDN Controller Information***************
+
+Controller Mode: STANDALONE
+
+Controller Type: ONOS
+
+Ip/Port: 192.168.1.114:6633
+
+*****************Benchmark  Information*****************
+
+OpenFlow Version: Openflow 1.3 
+
+Topology Type: Linear
+
+Number of Switch: 2 
+
+Number of Host per Switch: 100 
+
+Test Time: 5s 
+
+Bulk size start from: 1
+
+The packet loss threshoud : 5.0%
+
+Asynchronous Message Type: TCP
+
+Reactive Path Provisioning Packet Type: TCP
+
+*******************************************************
+
+[Mon Dec 10 16:21:11 KST 2018] [class com.Main]: "TOPOLOGY_DISCOVERY_TIME" Test Start... 
+
+[Mon Dec 10 16:21:37 KST 2018] [TopologyDiscovery]: Tasks 0 Completed. Discovery Time: 194.821364ms
+Size of LLDP IN:2
+Size of LLDP OUT:8
+ F-L IN:194.770674
+ F-L OUT:198.553784
