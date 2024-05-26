@@ -85,7 +85,7 @@ public class Log {
 
 	private static void exportLogSummary(String metricName, int metricIndex) {
 		String value = null;
-		String address = "logs\\" + metricName + "\\summary.txt";
+		String address = "logs/" + metricName + "/summary.txt";
 
 		File file = new File(address);
 		BufferedWriter bw = null;
