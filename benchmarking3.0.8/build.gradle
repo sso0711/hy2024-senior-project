@@ -29,8 +29,8 @@ dependencies {
     api libs.org.onosproject.openflowj
 
     implementation 'org.slf4j:slf4j-api:2.0.0'
-    implementation 'org.slf4j:slf4j-simple:2.0.0'
-    //implementation 'ch.qos.logback:logback-core:1.5.3'
+    //implementation 'org.slf4j:slf4j-simple:2.0.0'
+    implementation 'ch.qos.logback:logback-core:1.5.3'
     implementation 'com.ning:async-http-client:1.9.40'
 
     //runtimeOnly libs.org.apache.logging.log4j.log4j.core
@@ -41,14 +41,6 @@ group = 'com.mirlab'
 version = '0.0.2-SNAPSHOT'
 description = 'mirlab-switch'
 sourceCompatibility = '17'
-
-publishing {
-    publications {
-        maven(MavenPublication) {
-            from(components.java)
-        }
-    }
-}
 
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
