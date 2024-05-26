@@ -52,7 +52,7 @@ public class Log {
 		SimpleDateFormat formatter = new SimpleDateFormat("yyy-MM-dd_HH-mm");
 		String dataString = formatter.format(date);
 
-		String address = "logs\\" + metricName + "\\" + dataString + ".txt";
+		String address = "logs/" + metricName + "/" + dataString + ".txt";
 
 		File file = new File(address);
 		BufferedWriter bw = null;
