@@ -29,7 +29,7 @@ dependencies {
     implementation 'org.slf4j:slf4j-api:2.0.3'
     implementation 'ch.qos.logback:logback-classic:1.5.3'
     implementation 'com.ning:async-http-client:1.9.40'
-    
+
     testImplementation libs.junit.junit
 }
 
@@ -48,4 +48,16 @@ tasks.withType(Javadoc) {
 
 apply plugin: 'application'
 
-mainClassName = 'com.Main'
+application {
+    mainClass = 'com.Main'
+}
+
+run {
+    jvmArgs = [
+            "-XX:InitialHeapSize=512m",
+            "-XX:MaxHeapSize=2048m"
+    ]
+}
+
+
+//mainClassName = 'com.Main'
