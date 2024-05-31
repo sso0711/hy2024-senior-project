@@ -65,7 +65,7 @@ public class CreateTopo {
 		// create node
 		for (int i = 0; i < Global.NUMBER_OF_TEST_SWITCH; i++) {
 			nodes[i] = new Node((long) dpid++, i);
-			nodes[i].creatPort(2);
+			nodes[i].createPort(2);
 		}
 
 		// create srchosts Global.HOST_IP[2]=0 mac5=0
@@ -160,7 +160,7 @@ public class CreateTopo {
 	}
 
 	private Node[] create_mininetTopo() {
-		// the mininet topology's hosts shoud be 2 or it will make an error
+		// the mininet topology's hosts should be 2 or it will make an error
 		// TODO Auto-generated method stub
 
 		Node[] nodes = null;
@@ -295,7 +295,7 @@ public class CreateTopo {
 		// create node
 		for (int i = 0; i < Global.NUMBER_OF_TEST_SWITCH; i++) {
 			nodes[i] = new Node((long) dpid++, i);
-			nodes[i].creatPort(2);
+			nodes[i].createPort(2);
 		}
 
 		// create srchosts
@@ -349,7 +349,7 @@ public class CreateTopo {
 			nodes[nodes.length - 1].getPortList().get(1).addConnectedHostToList(dstHosts[n]);
 		}
 
-		// global 변수에 처음과 마지막 노드 부여
+		// global 변수에 처음과 마지막 노드 설정
 		Global.ROOTNODE = nodes[0];
 		Global.LEAFNODE = nodes[Global.NUMBER_OF_TEST_SWITCH - 1];
 		Global.nodes = nodes;
@@ -373,7 +373,7 @@ public class CreateTopo {
 		// create node
 		for (int i = 0; i < Global.NUMBER_OF_TEST_SWITCH; i++) {
 			nodes[i] = new Node((long) dpid++, i);
-			nodes[i].creatPort(2);
+			nodes[i].createPort(2);
 		}
 
 		// create srchosts
@@ -419,7 +419,7 @@ public class CreateTopo {
 			nodes[i - 1].setNextNode(nodes[i]);
 		}
 
-		// create link between s and h
+		// create link between switch and host
 		nodes[0].addPort();
 		for (int n = 0; n < srcHosts.length; n++) {
 			nodes[0].getPortList().getLast().addConnectedHostToList(srcHosts[n]);
@@ -433,7 +433,7 @@ public class CreateTopo {
 		nodes[0].getPortList().get(0).setConnectedPort(nodes[Global.NUMBER_OF_TEST_SWITCH - 1].getPortList().get(1));
 		nodes[Global.NUMBER_OF_TEST_SWITCH - 1].setNextNode(nodes[0]);
 
-		// 最前和最后node赋给global变量
+		// global 변수에 처음과 마지막 노드 설정
 		Global.ROOTNODE = nodes[0];
 		Global.LEAFNODE = nodes[Global.NUMBER_OF_TEST_SWITCH - 1];
 		Global.nodes = nodes;

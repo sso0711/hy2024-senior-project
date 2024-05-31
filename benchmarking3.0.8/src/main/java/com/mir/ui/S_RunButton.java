@@ -175,7 +175,7 @@ public class S_RunButton {
 		Log.ADD_LOG("Number of Host per Switch: " + Global.NODE_SIZE + " \n");
 		Log.ADD_LOG("Test Time: " + Global.TEST_TIME + "s \n");
 		Log.ADD_LOG("Bulk size start from: " + Global.CURRENT_BULK_SIZE + "\n");
-		Log.ADD_LOG("The packet loss threshoud : " + Global.PACKET_LOSS_RATE * 100 + "%\n");
+		Log.ADD_LOG("The packet loss threshold : " + Global.PACKET_LOSS_RATE * 100 + "%\n");
 
 		// unknowns type
 		if (Global.UNKNOWN_PACKET_TYPE == Global.TCP_PACKET) {

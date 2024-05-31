@@ -39,7 +39,7 @@ public class BaseHandler extends IdleStateAwareChannelHandler {
 	@Override
 	public void channelClosed(ChannelHandlerContext ctx, ChannelStateEvent event) throws Exception {
 		logger.debug("Channel closed.");
-		System.out.println("!!!!");
+		//System.out.println("!!!!");
 	}
 
 	@Override

@@ -4,7 +4,7 @@ import com.Main;
 import com.mirlab.enumType.SouthboundMetric;
 import com.mirlab.global.Global;
 
-//更新进度条的class
+//progress bar 업데이트 클래스
 
 public class ProgressUpdate extends Thread {
 

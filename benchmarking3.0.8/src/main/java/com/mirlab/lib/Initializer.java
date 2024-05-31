@@ -3,7 +3,6 @@ package com.mirlab.lib;
 import java.util.ArrayList;
 
 
-import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.Executors;
 
 import org.jboss.netty.bootstrap.ClientBootstrap;
@@ -156,7 +155,7 @@ public class Initializer {
 			rootNode = new Node((long) (5 + Global.SWITCH_ID_OFF_SET), 0);
 		}
 
-		rootNode.creatPort(3);
+		rootNode.createPort(3);
 
 		for (int i = 1; i < Global.NODE_SIZE + 1; i++) {
 
@@ -203,7 +202,7 @@ public class Initializer {
 		Node node;
 		Global.NUMBER_OF_PORT = 2;
 		Node root = new Node((long) dpid++, 0);
-		root.creatPort(2);
+		root.createPort(2);
 		root.start_OpenFlowClient();
 
 		preNode = root;
@@ -211,7 +210,7 @@ public class Initializer {
 		for (int i = 1; i < Global.NUMBER_OF_TEST_SWITCH; i++) {
 
 			node = new Node((long) dpid++, i);
-			node.creatPort(2);
+			node.createPort(2);
 
 			node.start_OpenFlowClient();
 
@@ -242,7 +241,7 @@ public class Initializer {
 		Global.NUMBER_OF_PORT = 3;
 		Node root = new Node((long) dpid++, 0);
 
-		root.creatPort(3);
+		root.createPort(3);
 		// add host
 		Host h;
 		h = new Host(Global.HOST_IP[0] + "." + Global.HOST_IP[1] + ".0.1", "aa:aa:aa:aa:aa:01");
@@ -257,7 +256,7 @@ public class Initializer {
 		for (int i = 1; i < Global.NUMBER_OF_TEST_SWITCH; i++) {
 
 			node = new Node((long) dpid++, i);
-			node.creatPort(3);
+			node.createPort(3);
 
 			// add host
 			Host h1;

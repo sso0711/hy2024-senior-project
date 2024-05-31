@@ -11,13 +11,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.Main;
-import com.mir.ui.ProgressUpdate;
 import com.mirlab.component.Node;
-import com.mirlab.enumType.SouthboundMetric;
 import com.mirlab.global.Global;
 import com.mirlab.openflow.BaseHandler;
-import com.mirlab.metric.northbound2.*;
-import com.mirlab.metric.southbound.*;
 
 
 public class Tasks {
@@ -139,13 +135,13 @@ public class Tasks {
 			Node[] nodes = new Node[10000];
 
 			nodes[0] = new Node((long) dpid++, 0);
-			nodes[0].creatPort(2);
+			nodes[0].createPort(2);
 			preNode = nodes[0];
 
 			// buf node
 			for (int i = 1; i < 10000; i++) {
 				nodes[i] = new Node((long) dpid++, nodeId++);
-				nodes[i].creatPort(2);
+				nodes[i].createPort(2);
 				nodes[i].getPortList().get(0).setConnectedPort(preNode.getPortList().get(1));
 				preNode.getPortList().get(1).setConnectedPort(nodes[i].getPortList().get(0));
 				preNode.setNextNode(nodes[i]);
@@ -254,7 +250,7 @@ public class Tasks {
 			Node node;
 			Global.TEST_NODE_DPID = dpid;
 			Node root = new Node((long) dpid++, 0);
-			root.creatPort(2);
+			root.createPort(2);
 
 			root.start_OpenFlowClient();
 
@@ -280,7 +276,7 @@ public class Tasks {
 					Global.TEST_NODE_DPID = dpid;
 					node = new Node((long) dpid++, nodeId++);
 
-					node.creatPort(2);
+					node.createPort(2);
 
 					node.start_OpenFlowClient();
 

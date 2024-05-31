@@ -272,7 +272,7 @@ public class GUI {
 		JMenuItem aboutMI = new JMenuItem("About");
 		aboutMI.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				JOptionPane.showMessageDialog(null, "Hanyang MIR LAB.\nSDN Benchmark v3.0.6", "MIR LAB.",
+				JOptionPane.showMessageDialog(null, "Hanyang MIR LAB.\nSDN Benchmark v3.0.8", "MIR LAB.",
 						JOptionPane.INFORMATION_MESSAGE);
 			}
 		});
