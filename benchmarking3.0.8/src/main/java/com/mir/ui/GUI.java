@@ -174,7 +174,7 @@ public class GUI {
 		frmMirlabBenchmark.setTitle("Mir-Lab SDN Benchmark v3.0.6");
 		frmMirlabBenchmark.setResizable(false);
 		frmMirlabBenchmark.setBounds(new Rectangle(50, 50, 50, 50));
-		frmMirlabBenchmark.setBounds(100, 100, 1080, 768);
+		frmMirlabBenchmark.setBounds(100, 100, 700, 500);
 		frmMirlabBenchmark.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frmMirlabBenchmark.getContentPane().setLayout(null);
 
